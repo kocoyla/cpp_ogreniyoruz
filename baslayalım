@@ -1,0 +1,17 @@
+* Kısacık Donanım/Yazılım Felsefesi
+  girdi -> program -> çıktı
+  girdi -> robot -> davranış
+
+  insan -> kod -> derleyici -> makine
+* Temel yapıtaşları 
+  Primitives, headers, namespaces, input/output, main function, comments
+* Cabuk giriş
+** ilkProgram.cpp
+  g++ ilkProgram.cpp -o program
+  ./program
+** Ya girdiler?
+  int argc, const char * argv[]
+
+  int f1(int x) { return (x - 1) * x * (x + 1); }
+
+* Son
