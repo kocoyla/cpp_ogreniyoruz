@@ -1,7 +1,8 @@
 #include <iostream>
+
 using namespace std;
 
-// Ruminations on C++ by Koenig and Moo, Chapter 15 - A radical old idea
+// Ruminations on C++ by Koenig and Moo, Chapter 15 - Sequences, A radical old idea
 
 template <class T> class Öge;
 
@@ -15,7 +16,7 @@ public:
   T baş() const;
   Dizi kuyruk() const;
   bool boşMu() const { return !(bool)this; }
-  operator bool() const;
+  operator bool() const; // typecast to boolean
 
 private:
   Dizi(Öge<T>* ö);
@@ -35,13 +36,11 @@ template <class T> class Öge {
   Öge(const T& ö): use(1), data(ö), kuyruk(NULL) { }
 };
 
-template <class T>
-Öge<T>::Öge(const T& ö, Öge<T>* k): use(1), data(ö), kuyruk(k) { if (k) k->use++; }
+template <class T> Öge<T>::Öge(const T& ö, Öge<T>* k): use(1), data(ö), kuyruk(k) { if (k) k->use++; }
 
 template <class T> Dizi<T>::Dizi(): öge(NULL) { }
 
-template <class T> Dizi<T>::Dizi(const T& baş, const Dizi& kuyruk):
-  öge(new Öge<T>(baş, kuyruk.öge)) { }
+template <class T> Dizi<T>::Dizi(const T& baş, const Dizi& kuyruk): öge(new Öge<T>(baş, kuyruk.öge)) { }
 
 template <class T> Dizi<T>::operator bool() const { return öge != NULL; }
 
@@ -83,5 +82,10 @@ int main() {
   cout << (pi.boşMu()?"boş":"dolu") << "." << endl;
   sayılar k1 = pi.kuyruk(), k2 = k1.kuyruk();
   cout << pi.baş() << "." << k1.baş() << k2.baş() << endl;
+  try {
+    cout << k2.kuyruk().baş();
+  } catch(char const* str) {
+    cout << "Hata yakalandı: " << str;
+  }
   return 0;
 }

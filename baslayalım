@@ -14,4 +14,6 @@
 
   int f1(int x) { return (x - 1) * x * (x + 1); }
 
+* ileride
+g++ -Wc++20-extensions
 * Son
