@@ -1,14 +1,22 @@
 Fen Lisesinde C++ Öğreniyoruz
+=============================
 
-Çevirimiçi Derleyiciler:
-  https://www.sololearn.com/en/compiler-playground/cpp
-  https://coliru.stacked-crooked.com/
+Çevirimiçi Derleyiciler
+-----------------------
+  [Sololearn](https://www.sololearn.com/en/compiler-playground/cpp)  `std::cin >> girdi;` çalışıyor!   
+  [CoLiRu](https://coliru.stacked-crooked.com/)
 
-İlk dersten program: https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U
+İlk derste yazdığımız program
+--
+[Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U)
 
-İlk proje: https://projecteuler.net/problem=1
+Çevirimiçi Dersler (Ücretsiz)
+--
+[Giriş dersleri](https://www.sololearn.com/en/learn/courses/c-plus-plus-introduction)  
+[Orta seviye dersler](https://www.sololearn.com/en/learn/courses/c-plus-plus-intermediate)
 
-Referans: https://en.cppreference.com/
+Diğer Siteler
+--
+[İlk proje](https://projecteuler.net/problem=1)  
 
-Giriş dersi:  https://www.sololearn.com/en/learn/courses/c-plus-plus-introduction
-Orta seviye ders: https://www.sololearn.com/en/learn/courses/c-plus-plus-intermediate
+[Referans](https://en.cppreference.com)
