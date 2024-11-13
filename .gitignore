@@ -1,4 +1,7 @@
+*~
 *.*~
 bin/
 **/bin/
 program
+.DS_Store
+code-deneme1.dSYM

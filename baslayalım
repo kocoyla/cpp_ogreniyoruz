@@ -1,8 +1,83 @@
+* ilk dersten notlar:
+
+Derste beraber yazıdığımız kodu biraz düzenledim. Şu linkte bulabilirsiniz:
+
+https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U
+
+Bunun üzerinden satır satır geçmenizde fayda var. Anlamadığınız şeyleri sormaktan çekinmeyin. WhatsApp grubumuza ya da bana direk yazın. Yazmak yerinde daha kolay gelirse sesli kayıt da yollayabilirsiniz.
+
+Yukardaki programı çalıştırınca sololearn sitesi sizden bir girdi isteyecek.
+
+Şu bir satırlık girdiyle başlayın:
+
+1000 2000 3000
+
+Sonsuz ve kısır döngü oluyor! Neyse ki sololearn döngüye son vermeyi biliyor.
+
+Ayrıca hesap hataları da var. Kasıtlı! İlerde çözeceğiz.
+
+Önce sonsuz döngüye sokmamak için girdimizi düzeltelim:
+
+1000 2000 3000 0
+
+Bunun nasıl çalıştığını anladınız mı?
+
+Ayrica 3000'in küpü eksi oldu. Yani hata var.
+Aynı hatadan dolayı karekökü 'nan' (not a number) hatası veriyor.
+
+Bu hataları doğrulamayı deneyin. Gelecek derste beraber de çözeriz.
+
+Bir de Euler projesindeki şu problemlere de bakıverin.
+
+https://projecteuler.net/problem=1
+https://projecteuler.net/problem=2
+https://projecteuler.net/problem=3
+
+Gelecek hafta beraber programlayarak çözeriz.
+
+Sololearn'deki ucretsiz c++'a giriş dersini öneriyorum hepinize:
+https://www.sololearn.com/en/learn/courses/c-plus-plus-introduction
+
+Sololearn yanında şu COLIRU sitesini de çevrim içi kod yazmak için kullanın:
+
+https://coliru.stacked-crooked.com/a/97d5717bea88a897
+
+Sağ alttaki Edit tuşuna basıp kodu istediğiniz gibi değiştirebilirsiniz.
+Yazdıktan sonra çalıştırmak için altta sağda çıkan "Compile, link and run..." tuşuna basın.
+Eğer yazdığınız kod çalışmazsa ya da anlamadığınız bir tarafı olursa "Share" tuşuna basıp http adresini bana yollayabilirsiniz.
+
+Bu sayfa c++ referans sitesi tarafından da kullanılıyor. İlerde işinize yarayabilir:
+https://en.cppreference.com/
+
+Örneğin şunu okumak faydalı olur:
+https://en.cppreference.com/w/c/language/basic_concepts
+
+Daha ileride array ve daha becerikli dizileri öğreneceğiz. Onlara da hızlıca bakabilirsiniz:
+
+https://en.cppreference.com/w/cpp/container
+
+Örneğin kümeler:
+https://en.cppreference.com/w/cpp/container/set
+
+Basit (ama çok faydalı) bir küme kodu:
+https://coliru.stacked-crooked.com/a/960b6ab2bfaa7aa5
+
+İlerki derslerimizden birinde iki kümenin kesişimini bulan bir fonksiyon yazmak istediğimiz zaman çok faydalı olacak.
+
+* Son 30 yıldır C++'la yazılan o kadar çok yazılım var ki...
 * Kısacık Donanım/Yazılım Felsefesi
   girdi -> program -> çıktı
   girdi -> robot -> davranış
 
   insan -> kod -> derleyici -> makine
+* çevirimiçi programlama
+https://www.sololearn.com/en/compiler-playground/cpp
+https://coliru.stacked-crooked.com/
+* en basit program:
+https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U
+https://coliru.stacked-crooked.com/a/97d5717bea88a897
+* biraz hesap ve ekrana çıktı yazdıralım
+https://coliru.stacked-crooked.com/a/4bef7d21ffe4e1af
 * Temel yapıtaşları 
   Primitives, headers, namespaces, input/output, main function, comments
 * Cabuk giriş
