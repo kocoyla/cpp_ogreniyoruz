@@ -1,12 +1,12 @@
 #include <iostream>
 using namespace std;
 
-// fonkisyon türlerini belirt (declare)
+// fonksiyon türlerini belirtelim / declare function (proto)types
 void yaz(long);
 void asalÇarpanlarıYaz(long);
 
 int main() {
-  long dene[] = {1, 4, 5, 6, 7, 8, 9, 10, 12, 36, 81, 98, 121, 2048, 13195, 600851475143l};
+  long dene[] {1, 4, 5, 6, 7, 8, 9, 10, 12, 36, 81, 98, 121, 2048, 13195, 600851475143l};
   // https://stackoverflow.com/questions/20234898/more-modern-way-of-looping-through-c-arrays
   for(auto s: dene) asalÇarpanlarıYaz(s);
   return 0;
@@ -20,12 +20,12 @@ void asalÇarpanlarıYaz(long s) {
     cout << endl;
     return;
   }
-  long bolen{2};
-  float sinir = sqrt(s);
-  long sayi = s;
+  long bolen {2};
+  const double sinir {sqrt(s)};
+  const long sayi {s};
   do {
-    long kalan = s % bolen;
-    long carpan = 1;
+    long kalan {s % bolen};
+    long carpan {1};
     while (kalan == 0) {
       carpan *= bolen;
       if (carpan == bolen) { yaz(carpan); }
