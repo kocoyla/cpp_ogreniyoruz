@@ -11,3 +11,6 @@ test:
 	diff beklenen-cikti test-ciktisi
 	rm -rf test-ciktisi
 
+temizle:
+	rm -rf prog test-ciktisi
+
