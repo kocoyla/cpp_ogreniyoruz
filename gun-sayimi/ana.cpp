@@ -155,15 +155,13 @@ int main(int argc, char** argv) {
   if (cin.fail())
     cout << "Hiç birşey girmediniz. 1 Ocak 2024'te doğan bir bebek olduğunuz varsayımıyla devam edelim 8-)" << endl;
   else if (!isDATEvalid(dob_date, dob_month, dob_year)) {
-    cout << "Doğum gününü \"gün ay yıl\" olarak girin!" << endl 
-	 << "\"gün\"   1 ile 31," << endl
+    cout << "Doğum gününü \"yıl ay gün\" olarak girin!" << endl
+	 << "\"yıl\"   1 ile " << now_year << "," << endl
 	 << "\"ay\"    1 ile 12," << endl  
-	 << "\"yıl\"   1 ile "
-	 << now_year 
+	 << "\"gün\"   1 ile 31 arasında olsun." << endl
       /* << static_cast<
 	 unsigned char>(236) */
-	 << " arasında olsun." << endl 
-	 << endl << "Örneğin: 09 05 1996";
+	 << endl << "Örneğin: 1996 5 19";
     return 1;
   }
     
@@ -207,21 +205,20 @@ int main(int argc, char** argv) {
     next_bday_month = dob_month,
     next_bday_year = now_year + 1;
         
-  if (dob_year < now_year && (dob_month > now_month || (dob_month == now_month && dob_date > now_date)))
+  if (dob_year < now_year &&
+      (dob_month > now_month || (dob_month == now_month &&
+				 dob_date > now_date)))
     next_bday_year = now_year;
         
   if (dob_date == 29 && dob_month == 2)
     while (!isLeapYear(next_bday_year))
       next_bday_year++;
             
-  // cout << next_bday_year << endl;
-
   string gelecekDG = date2day(
 			      next_bday_date,
 			      next_bday_month, 
 			      next_bday_year);
      
-  // cout << gelecekDG << endl;
   
   string boşluk = string(15, ' ');
     
