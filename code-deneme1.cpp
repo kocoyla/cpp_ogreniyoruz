@@ -18,15 +18,19 @@ long fi(int n) {
 int main(int argc, const char *argv[])
 {
   cout << "Program: " << argv[0] << endl;
+  int count = 23;
   if (argc == 1) {
     cout << "Girdi yok." << endl;
   }
-  else
+  else {
     for (int i = 1; i < argc; i++) {
       cout << "Girdi " << i << ": " << argv[i] << endl;
     }
-  cout << "Merhaba!" << endl;
-  for(int i = 0; i < 23; i++) {
-    cout << i << " -> " << fi(i) << endl;
+    count = stoi(argv[1]);
   }
+  cout << "Merhaba!" << endl;
+  for(int i = 0; i < count; i++) {
+    cout << fi(i) << " ";
+  }
+  cout << endl;
 }
