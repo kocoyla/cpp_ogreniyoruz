@@ -1,0 +1,18 @@
+N=4
+dizi/array: 4 8 16 32 
+vektor v0: 10 10 10 10 
+vektor v1: 4 8 16 32 
+v1'in ikinci ögesi değişti: 4 20 16 32 
+v2: 4 20 16 32 
+v2'nin ilk iki ögesinin değerleri arttı ve sona bir öge eklendi: 14 40 16 32 13 
+v2 ikiye böl x: 14 40 16 32 13 
+v2 ikiye böl y: 14 40 16 32 13 
+v2 ikiye böl a: 14 40 16 32 13 
+v2 ikiye böl b: 7 20 8 16 6.5 
+matris başta: 
+	[0]: 4 20 16 32 
+	[1]: 4 20 16 32 
+ikinci ögesini değiştir: 
+	[0]: 4 20 16 32 
+	[1]: 7 20 8 16 6.5 
+Bitti.
