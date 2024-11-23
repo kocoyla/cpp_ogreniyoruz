@@ -134,7 +134,18 @@ int main(int argc, char** argv) {
     dob_date = stoi(argv[3]);
   } else {
     if (argc == 2) {
+      // verilen gün sayısı kadar geri gidelim. Tarih ne olur?
       num_days_ago = stoi(argv[1]);
+      bool cik = false;
+      if (num_days_ago > 1000000) {
+	cout << "Bir milyondan çok olmasın." << endl;
+	cik = true;
+      }
+      if (num_days_ago < 1) {
+	cout << "Birden az olmasın." << endl;
+	cik = true;
+      }
+      if (cik) return 1;
     } else {
       cout << "Ya bir doğum günü girin, ya da gün sayısı." << endl;
       return 1;

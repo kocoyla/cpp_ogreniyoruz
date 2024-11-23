@@ -1,6 +1,7 @@
 all: build run
 
-CODE = dizi2
+# dizi veya bellek
+CODE = dizi
 
 build: bin $(CODE)
 bin:
