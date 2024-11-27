@@ -7,11 +7,11 @@ Fen Lisesinde C++ Öğreniyoruz
 
 [OnlineGdb](https://onlinegdb.com/MOj93f6vtA)  Alttaki terminalde girdi ve çıktılar beraber.  
 
-   [CoLiRu](https://coliru.stacked-crooked.com/).  
+   [CoLiRu](https://coliru.stacked-crooked.com/a/9a5a244a826e572a).  
 
 [Jupyter: Okuryazar Programlama](https://jupyter.org/try).  
 
-[Jupyter+C++](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb).  
+[Jupyter + C++](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb).  
 
  
 
