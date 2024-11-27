@@ -7,7 +7,7 @@ Fen Lisesinde C++ Öğreniyoruz
 
 [OnlineGdb](https://onlinegdb.com/MOj93f6vtA)  Alttaki terminalde girdi ve çıktılar beraber.  
 
-   [CoLiRu](https://coliru.stacked-crooked.com/a/9a5a244a826e572a).  Sağ alttaki **Eşit** tuşuna basın.  
+   [CoLiRu](https://coliru.stacked-crooked.com/a/9a5a244a826e572a).  Sağ alttaki **Edit** tuşuna basın.  
 
 [Jupyter: Okuryazar Programlama](https://jupyter.org/try).  
 
