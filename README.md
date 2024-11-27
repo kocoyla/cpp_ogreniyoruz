@@ -22,8 +22,9 @@ Diğer Siteler
 
 [Referans](https://en.cppreference.com)
 
-
-[![xeus-cling](images/xeus-cling.png)](https://github.com/jupyter-xeus/xeus-cling/)
+Literate (Okuryazar Programlama)
+--
+[jupyter-xeus-cling](https://github.com/jupyter-xeus/xeus-cling/)
 
 A Jupyter kernel for C++ based on the `cling` C++ interpreter and the `xeus` native implementation of the Jupyter protocol, xeus.
 
