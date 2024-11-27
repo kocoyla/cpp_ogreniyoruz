@@ -3,8 +3,10 @@ Fen Lisesinde C++ Öğreniyoruz
 
 Çevirimiçi Derleyiciler
 -----------------------
-  [Sololearn](https://www.sololearn.com/en/compiler-playground/cpp)  `std::cin >> girdi;` bile çalışıyor!   
-  [CoLiRu](https://coliru.stacked-crooked.com/)
+  [Sololearn](https://www.sololearn.com/en/compiler-playground/cpp)  `std::cin >> girdi;` çalışıyor!  
+
+[OnlineGdb](https://onlinegdb.com/MOj93f6vtA)  Alttaki terminalde girdi ve çıktılar beraber.  
+ [CoLiRu](https://coliru.stacked-crooked.com/)
 
 İlk derste gördüğümüz yapıtaşlarıyla yazılan bir program
 --
