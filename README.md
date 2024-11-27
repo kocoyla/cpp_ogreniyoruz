@@ -8,6 +8,8 @@ Fen Lisesinde C++ Öğreniyoruz
 [OnlineGdb](https://onlinegdb.com/MOj93f6vtA)  Alttaki terminalde girdi ve çıktılar beraber.  
  [CoLiRu](https://coliru.stacked-crooked.com/)
 
+[Jupyter: Okuryazar Programlama](https://hub.binder.curvenote.dev/user/jupyter-xeus-xeus-cling-4unokhwt/notebooks/notebooks/xcpp.ipynb#)  
+
 İlk derste gördüğümüz yapıtaşlarıyla yazılan bir program
 --
 [Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U)  
@@ -26,6 +28,8 @@ Diğer Siteler
 
 Literate (Okuryazar Programlama)
 --
+[Burada başla] (https://hub.binder.curvenote.dev/user/jupyter-xeus-xeus-cling-4unokhwt/notebooks/notebooks/xcpp.ipynb#)
+
 [jupyter-xeus-cling](https://github.com/jupyter-xeus/xeus-cling/)
 
 A Jupyter kernel for C++ based on the `cling` C++ interpreter and the `xeus` native implementation of the Jupyter protocol, xeus.
