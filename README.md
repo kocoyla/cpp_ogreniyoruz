@@ -28,13 +28,12 @@ Sağ alttaki **RUN** tuşuna basın.
 
 [Kontrol yapıları](https://sololearn.com/compiler-playground/coLvDwg6K4Te) kontrol için if/else ve for/while döngüleri. Bir de basit bir işlev (function) tanımladık.
 
-[İlk oyun!](https://onlinegdb.com/i4AbswzZtP) Rastgele sayı üretme yolu.  
+[İlk oyun!](https://onlinegdb.com/i4AbswzZtP) Rastgele sayı üretme yöntemi çok işe yarar.
 
 
 İkinci ders
 --
-[Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U)  
-isim uzayı, yerel, küresel kapsam, dizilerle işlemler, temel türler, ikil(bool), harf(char), sayı(int), kesirli sayı(double). Bir de yazı (string), ama o temel değil, std yani standart kütüpten.  
+[Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U) işlevler, isim uzayı, yerel, küresel kapsam, dizilerle işlemler, temel türler, ikil(bool), harf(char), sayı(int), kesirli sayı(double). Bir de yazı (string), ama o temel değil, std yani standart kütüpten.  
 
 
 Üçüncü ders
