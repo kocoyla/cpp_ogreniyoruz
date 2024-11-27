@@ -35,14 +35,14 @@ A Jupyter kernel for C++ based on the `cling` C++ interpreter and the `xeus` nat
 #include <iostream>
 
 int main() {
-    std::cout << "Merhaba!\n\tHoÅŸgeldin \n\tdaha gÃ¼zel okunur,\n\tokuryazar \n\tprogramlamaya...";
+    std::cout << "Merhaba!\n\tHoşgeldin \n\tdaha kolay okunur, anlaşılır,\n\tokuryazar \n\tprogramlamaya...";
 } 
 main();
 ```
 
     Merhaba!
-    	HoÅŸgeldin 
-    	daha gÃ¼zel okunur,
+    	Hoşgeldin 
+    	daha güzel okunur,
     	okuryazar 
     	programlamaya...
 
