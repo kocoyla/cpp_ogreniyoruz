@@ -26,7 +26,7 @@ Sağ alttaki **RUN** tuşuna basın.
 
 [Girdi alma](https://sololearn.com/compiler-playground/c1JyEkLln8AK) cin>>girdi;  
 
-[Kontrol yapıları](https://sololearn.com/compiler-playground/coLvDwg6K4Te) kontrol için if/else ve for/while döngüleri.  
+[Kontrol yapıları](https://sololearn.com/compiler-playground/coLvDwg6K4Te) kontrol için if/else ve for/while döngüleri. Bir de basit bir işlev (function) tanımladık.
 
 [İlk oyun!](https://onlinegdb.com/i4AbswzZtP) Rastgele sayı üretme yolu.  
 
@@ -57,14 +57,11 @@ Diğer Siteler
 
 Literate (Okuryazar Programlama)
 --
-[Burada başla](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb). 
+[Buradan başla](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb). 
 
 [jupyter-xeus-cling](https://github.com/jupyter-xeus/xeus-cling/)
 
-A Jupyter kernel for C++ based on the `cling` C++ interpreter and the `xeus` native implementation of the Jupyter protocol, xeus.
-
-- GitHub repository: https://github.com/jupyter-xeus/xeus-cling/
-- Online documentation: https://xeus-cling.readthedocs.io/
+- Kullanım kılavuzu: https://xeus-cling.readthedocs.io/
 
 
 ```c++
@@ -78,7 +75,7 @@ main();
 
     Merhaba!
     	Hoşgeldin 
-    	daha güzel okunur,
+    	daha kolay okunur, anlaşılır,
     	okuryazar 
     	programlamaya...
 
