@@ -15,10 +15,20 @@ Fen Lisesinde C++ Öğreniyoruz
 
  
 
-İlk derste gördüğümüz yapıtaşlarıyla yazılan bir program
---
-[Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U)  
-Sağ alttaki **Run** tuşuna basın.  
+İlk derste temel yapıtaşları gördük 
+-- 
+Pekiştirmek için şu örnek programların üzerinden geçmekte fayda var.  
+
+[İlk program](https://sololearn.com/compiler-playground/cHlx3KLO5G6d/)  
+Sağ alttaki **RUN** tuşuna basın.  
+
+[Temel veri tipleri](https://sololearn.com/compiler-playground/cPv2HfqDr8h7) sayı, kesirli sayı, harf, ikil(bool).  
+
+[Girdi alma](https://sololearn.com/compiler-playground/c1JyEkLln8AK) cin>>girdi;  
+
+[Kontrol yapıları](https://sololearn.com/compiler-playground/coLvDwg6K4Te) kontrol için if/else ve for/while döngüleri.  
+
+[İlk oyun!](https://onlinegdb.com/i4AbswzZtP) Rastgele sayı üretme yolu.  
 
 
 İkinci ders
