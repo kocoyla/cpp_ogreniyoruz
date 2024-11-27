@@ -6,14 +6,33 @@ Fen Lisesinde C++ Öğreniyoruz
   [Sololearn](https://www.sololearn.com/en/compiler-playground/cpp)  `std::cin >> girdi;` çalışıyor!  
 
 [OnlineGdb](https://onlinegdb.com/MOj93f6vtA)  Alttaki terminalde girdi ve çıktılar beraber.  
- [CoLiRu](https://coliru.stacked-crooked.com/)
 
-[Jupyter: Okuryazar Programlama](https://hub.binder.curvenote.dev/user/jupyter-xeus-xeus-cling-4unokhwt/notebooks/notebooks/xcpp.ipynb#)  
+   [CoLiRu](https://coliru.stacked-crooked.com/).  
+
+[Jupyter: Okuryazar Programlama](https://jupyter.org/try).  
+
+[Jupyter+C++](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb).  
+
+ 
 
 İlk derste gördüğümüz yapıtaşlarıyla yazılan bir program
 --
 [Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U)  
 Sağ alttaki **Run** tuşuna basın.  
+
+
+İkinci ders
+--
+[Kod](https://www.sololearn.com/en/compiler-playground/cHXfjbO8i14U)  
+isim uzayı, yerel, küresel kapsam, dizilerle işlemler, temel türler, ikil(bool), harf(char), sayı(int), kesirli sayı(double). Bir de yazı (string), ama o temel değil, std yani standart kütüpten.  
+
+
+Üçüncü ders
+--
+[Kod1](https://sololearn.com/compiler-playground/crpbSkBKD5ul) adres ve takma ad işlemcileri (pointer/reference).  
+[Kod2](https://sololearn.com/compiler-playground/cUWBwZrMqVkd) akıllı sayı dizileri (vector<int>).   
+
+
 
 Çevirimiçi Dersler (Ücretsiz)
 --
@@ -28,7 +47,7 @@ Diğer Siteler
 
 Literate (Okuryazar Programlama)
 --
-[Burada başla] (https://hub.binder.curvenote.dev/user/jupyter-xeus-xeus-cling-4unokhwt/notebooks/notebooks/xcpp.ipynb#)
+[Burada başla](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb). 
 
 [jupyter-xeus-cling](https://github.com/jupyter-xeus/xeus-cling/)
 
