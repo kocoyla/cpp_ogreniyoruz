@@ -46,7 +46,8 @@ Sağ alttaki **RUN** tuşuna basın.
 Çevirimiçi Dersler (Ücretsiz)
 --
 [Giriş dersleri](https://www.sololearn.com/en/learn/courses/c-plus-plus-introduction)  
-[Orta seviye dersler](https://www.sololearn.com/en/learn/courses/c-plus-plus-intermediate)
+[Orta seviye dersler](https://www.sololearn.com/en/learn/courses/c-plus-plus-intermediate)   
+[Yapay beyinden öneriler](https://chatgpt.com/share/674775c0-d424-8009-835a-a1745715f8a7)  Ufak tefek hatalar var ama yine de çok faydalı bilgiler.  
 
 Diğer Siteler
 --
