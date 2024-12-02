@@ -51,11 +51,17 @@ Sağ alttaki **RUN** tuşuna basın.
 
 Diğer Siteler
 --
-[İlk proje](https://projecteuler.net/problem=1)  
+[İlk proje (euler)](https://projecteuler.net/problem=1)  
 
-[Referans](https://en.cppreference.com)  
+[C++ referans](https://en.cppreference.com)  
 
-[Windows c++ Derleyici](https://cygwin.com/install.html).  
+[Windows'a linux benzeri terminal (cygwin)](https://cygwin.com/install.html) + 
+[Cygwin'e c++ derleyici](https://stackoverflow.com/questions/44354169/how-to-install-g-in-cygwin?newreg=f4dff0a25415471fa12f1dd8c109a3fe) +   
+ilk program `deneme.cpp` diye bir dosya olsun: 
+```bash
+$ c++ deneme.cpp -o dene
+$ ./dene
+```
 
 Literate (Okuryazar Programlama)
 --
