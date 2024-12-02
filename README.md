@@ -53,7 +53,9 @@ Diğer Siteler
 --
 [İlk proje](https://projecteuler.net/problem=1)  
 
-[Referans](https://en.cppreference.com)
+[Referans](https://en.cppreference.com)  
+
+[Windows c++ Derleyici](https://cygwin.com/install.html).  
 
 Literate (Okuryazar Programlama)
 --
