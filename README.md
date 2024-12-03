@@ -64,7 +64,7 @@ ilk program `deneme.cpp` diye bir dosya olsun:
 $ c++ deneme.cpp -o dene
 $ ./dene
 ```
-[Bir de emacs editor](https://mirror.us-midwest-1.nexcess.net/gnu/emacs/windows/emacs-29/emacs-29.4-installer.exe)  
+[Bir de emacs editor iyi olur](https://ftp.gnu.org/gnu/emacs/windows/emacs-29/emacs-29.4-installer.exe)
 
 Literate (Okuryazar Programlama)
 --
