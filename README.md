@@ -55,13 +55,16 @@ Diğer Siteler
 
 [C++ referans](https://en.cppreference.com)  
 
-[Windows'a linux benzeri terminal (cygwin)](https://cygwin.com/install.html) + 
-[Cygwin'e c++ derleyici](https://stackoverflow.com/questions/44354169/how-to-install-g-in-cygwin?newreg=f4dff0a25415471fa12f1dd8c109a3fe) +   
+Windows'da Terminal, C++ Derleyici ve Editor
+--
+[Windows'a linux benzeri terminal ekle (cygwin)](https://cygwin.com/install.html) + 
+[Cygwin'e c++ derleyici ekle (cygport paketine dahil)](https://stackoverflow.com/questions/44354169/how-to-install-g-in-cygwin?newreg=f4dff0a25415471fa12f1dd8c109a3fe) +   
 ilk program `deneme.cpp` diye bir dosya olsun: 
 ```bash
 $ c++ deneme.cpp -o dene
 $ ./dene
 ```
+[Bir de emacs editor](https://mirror.us-midwest-1.nexcess.net/gnu/emacs/windows/emacs-29/emacs-29.4-installer.exe)  
 
 Literate (Okuryazar Programlama)
 --
