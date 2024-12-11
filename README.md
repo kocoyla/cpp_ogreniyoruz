@@ -15,7 +15,7 @@ Fen Lisesinde C++ Öğreniyoruz
 
  
 
-İlk derste temel yapıtaşları gördük 
+İlk derste bazı temel yapıtaşlarını gördük 
 -- 
 Pekiştirmek için şu örnek programların üzerinden geçmekte fayda var.  
 
@@ -42,6 +42,87 @@ Sağ alttaki **RUN** tuşuna basın.
 [Kod2](https://sololearn.com/compiler-playground/cUWBwZrMqVkd) akıllı sayı dizileri (vector<int>).   
 
 
+Dördüncü ders
+--
+[Kod1](https://www.onlinegdb.com/fork/i4AbswzZtP) sayı tahmin etme oyunu.  
+[Kod2](https://onlinegdb.com/bbM6VmacX) doğum günü girdisiyle gün sayma.  
+
+
+Beşinci ders
+--
+[Project Euler Birinci Problem](https://projecteuler.net/problem=1)  3'e ve 5'e bölünen sayıların toplamını bulmak için beraber kod yazdık. İki kaynak dosyamız var. **ana.cpp**:  
+```
+#include <iostream>
+
+using namespace std;
+
+int p1();
+
+int main() {
+  cout << "Project Euler, birinci problem: ";
+  cout << p1() << endl;
+  return 0;
+}
+```  
+ve **prob1.cpp**  
+```
+#include <iostream>
+
+bool bölünüyorMu(int sayı, int bölen) {
+  return sayı % bölen == 0;
+}
+
+int p1() {
+  int toplam{0};
+
+  for (int sayı{3}; sayı < 1000; ++sayı) {
+    if (bölünüyorMu(sayı, 3)) {
+      toplam = toplam + sayı;
+    }
+    if (bölünüyorMu(sayı, 5)) {
+      toplam += sayı;
+    }
+    if (bölünüyorMu(sayı, 15)) {
+      toplam -= sayı;
+    }
+  }
+  return toplam;
+}
+```
+Derlemek ve link etmek için, terminalde c++ programını çalıştırdık:  
+```
+% c++ -std=c++23 ana.cpp prob1.cpp -o program
+```
+Sonra da yanıtı bulduk:
+```
+% program                                    
+Project Euler, birinci problem: 233168
+```
+
+Ayrıca, bazı terminal komutlarını gördük: **pwd, ls, mkdir, cd**, vb. GitHub'daki bu sayfayı ve altındaki kodları kendi bilgisayarımıza indirmek için:  
+```
+% git clone https://github.com/bulent2k2/cpp_ogreniyoruz
+% cd cpp_ogreniyoruz 
+% cd e1
+% ls
+Makefile	e1b.cpp		e1da.cpp
+e1a.cpp		e1c.cpp		e1db.cpp
+% c++ e1a.cpp
+% a.out
+233168
+% c++ -c e1a.cpp
+% c++ -o prob1 e1a.o
+prob1
+233168
+%
+``` 
+
+[Unix Terminal komutları hakkında daha ayrıntılı bilgi](https://acikders.ankara.edu.tr/pluginfile.php/155213/mod_resource/content/0/10.1.%20Linux%20Komutlar%C4%B1.pdf)  
+
+Gelecek hafta için üç ödevimiz var. Fırsat buldukça, yapabildiğimiz kadar yapalım:  
+1) [Project Euler Hakkında](https://projecteuler.net/about) sayfasını istersek İngilizce ya da Türkçeye tercüme ettirip okuyuverelim ve kendimize bir oturum açalım. Sonra da birinci sorunun yanıtını girelim. Doğru yanıtı girince bize sunular PDF dosyasını okuyalım.
+1) Windows bilgisayarımıza cygwin terminal indirmek ve cygport paketiyle c++ derleyiciyi (ve arzu edersek Emacs editörünü) yüklemek. Linkler aşağıda.
+2) [Project Euler 15. Problem](https://projecteuler.net/problem=15) satranç tahtasında iki çapraz köşe arasındaki en kısa yolları nasıl sayabiliriz? 2x2 tahtada 6 yol var. Ya 3x3'te?
 
 Çevirimiçi Dersler (Ücretsiz)
 --
@@ -51,7 +132,7 @@ Sağ alttaki **RUN** tuşuna basın.
 
 Diğer Siteler
 --
-[İlk proje (euler)](https://projecteuler.net/problem=1)  
+[İlk proje (Euler)](https://projecteuler.net/problem=1)  
 
 [C++ referans](https://en.cppreference.com)  
 
