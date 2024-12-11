@@ -45,7 +45,7 @@ Sağ alttaki **RUN** tuşuna basın.
 Dördüncü ders
 --
 [Kod1](https://www.onlinegdb.com/fork/i4AbswzZtP) sayı tahmin etme oyunu.  
-[Kod2](https://onlinegdb.com/bbM6VmacX) doğum günü girdisiyle gün sayma.  
+[Kod2](https://www.onlinegdb.com/fork/bbM6VmacX) doğum günü girdisiyle gün sayma.  
 
 
 Beşinci ders
