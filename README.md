@@ -133,7 +133,7 @@ prob1
 Yukarıda **e1a.o** örneğinde gördüğümüz **object code** (nesne ya da makine kodu) hakkında konuştuk. Derleyicinin **-c** seçeneğini kullanarak birkaç örnek derledik ve sonra linker'la (**-c** kullanmadan) programı oluşturduk ve çalıştırdık.  
 
 Gelecek hafta için üç ödevimiz var. Fırsat buldukça, yapabildiğimiz kadar yapalım:  
-1) [Project Euler Hakkında](https://projecteuler.net/about) sayfasını istersek İngilizce ya da Türkçeye tercüme ettirip okuyuverelim ve kendimize bir oturum açalım. Sonra da birinci sorunun yanıtını girelim. Doğru yanıtı girince bize sunular PDF dosyasını okuyalım.
+1) [Project Euler Hakkında](https://projecteuler.net/about) sayfasını istersek İngilizce ya da Türkçeye tercüme ettirip okuyuverelim ve kendimize bir oturum açalım. Sonra da birinci sorunun yanıtını girelim. Doğru yanıtı girince bize sunulan PDF dosyasını okuyalım.
 1) Windows bilgisayarımıza cygwin terminal indirmek ve cygport paketiyle c++ derleyiciyi (ve arzu edersek Emacs editörünü) yüklemek. Linkler hemen aşağıda. Cygwin64 terminalini çalıştırın ve **pwd** komutunu girin. Size **/home/<kullanıcı-adı>** gibi bir çıktı verir. Bu **C:\cygwin64\home\<kullanıcı-adı>** diziniyle bir. Unix ve Windows arasındaki farklardan biri de bu. Yukarıda gördüğümüz **git** ve **c++** komutlarını da deneyin. Çalışmazsa Bülent hocaya danışıverin.
 2) [Project Euler 15. Problem](https://projecteuler.net/problem=15) satranç tahtasında iki çapraz köşe arasındaki en kısa yolları nasıl sayabiliriz? 2x2 tahtada 6 yol var. Ya 3x3'te?
 
