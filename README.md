@@ -111,7 +111,7 @@ Project Euler, birinci problem: 233168
 ```
 
 Ayrıca, bazı terminal komutlarını gördük: **pwd, ls, mkdir, cd**, vb. GitHub'daki bu sayfayı ve altındaki kodları kendi bilgisayarımıza indirmek için:  
-```shell
+```bash
 % git clone https://github.com/bulent2k2/cpp_ogreniyoruz
 % cd cpp_ogreniyoruz 
 % cd e1
