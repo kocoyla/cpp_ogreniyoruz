@@ -13,7 +13,18 @@ Fen Lisesinde C++ Öğreniyoruz
 
 [Jupyter + C++](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb).  
 
- 
+
+Çevirimiçi Dersler (Ücretsiz)
+--
+[Giriş dersleri](https://www.sololearn.com/en/learn/courses/c-plus-plus-introduction)  
+[Orta seviye dersler](https://www.sololearn.com/en/learn/courses/c-plus-plus-intermediate)   
+[Yapay beyinden öneriler](https://chatgpt.com/share/674775c0-d424-8009-835a-a1745715f8a7)  Ufak tefek hatalar var ama yine de çok faydalı bilgiler.  
+
+Diğer Siteler
+--
+[Project Euler](https://projecteuler.net/)  
+
+[C++ referans](https://en.cppreference.com)  
 
 İlk derste bazı temel yapıtaşlarını gördük 
 -- 
@@ -51,7 +62,7 @@ Dördüncü ders
 Beşinci ders
 --
 [Project Euler Birinci Problem](https://projecteuler.net/problem=1)  3'e ve 5'e bölünen sayıların toplamını bulmak için beraber kod yazdık. İki kaynak dosyamız var. **ana.cpp**:  
-```
+```c++
 #include <iostream>
 
 using namespace std;
@@ -65,7 +76,7 @@ int main() {
 }
 ```  
 ve **prob1.cpp**  
-```
+```c++
 #include <iostream>
 
 bool bölünüyorMu(int sayı, int bölen) {
@@ -90,17 +101,17 @@ int p1() {
 }
 ```
 Derlemek ve link etmek için, terminalde c++ programını çalıştırdık:  
-```
+```shell
 % c++ -std=c++23 ana.cpp prob1.cpp -o program
 ```
 Sonra da yanıtı bulduk:
-```
+```shell
 % program                                    
 Project Euler, birinci problem: 233168
 ```
 
 Ayrıca, bazı terminal komutlarını gördük: **pwd, ls, mkdir, cd**, vb. GitHub'daki bu sayfayı ve altındaki kodları kendi bilgisayarımıza indirmek için:  
-```
+```shell
 % git clone https://github.com/bulent2k2/cpp_ogreniyoruz
 % cd cpp_ogreniyoruz 
 % cd e1
@@ -119,27 +130,17 @@ prob1
 
 [Unix Terminal komutları hakkında daha ayrıntılı bilgi](https://acikders.ankara.edu.tr/pluginfile.php/155213/mod_resource/content/0/10.1.%20Linux%20Komutlar%C4%B1.pdf)  
 
+Yukarıda **e1a.o** örneğinde gördüğümüz **object code** (nesne ya da makine kodu) hakkında konuştuk. Derleyicinin **-c** seçeneğini kullanarak birkaç örnek derledik ve sonra linker'la (**-c** kullanmadan) programı oluşturduk ve çalıştırdık.  
+
 Gelecek hafta için üç ödevimiz var. Fırsat buldukça, yapabildiğimiz kadar yapalım:  
 1) [Project Euler Hakkında](https://projecteuler.net/about) sayfasını istersek İngilizce ya da Türkçeye tercüme ettirip okuyuverelim ve kendimize bir oturum açalım. Sonra da birinci sorunun yanıtını girelim. Doğru yanıtı girince bize sunular PDF dosyasını okuyalım.
-1) Windows bilgisayarımıza cygwin terminal indirmek ve cygport paketiyle c++ derleyiciyi (ve arzu edersek Emacs editörünü) yüklemek. Linkler aşağıda.
+1) Windows bilgisayarımıza cygwin terminal indirmek ve cygport paketiyle c++ derleyiciyi (ve arzu edersek Emacs editörünü) yüklemek. Linkler hemen aşağıda. Cygwin64 terminalini çalıştırın ve **pwd** komutunu girin. Size **/home/<kullanıcı-adı>** gibi bir çıktı verir. Bu **C:\cygwin64\home\<kullanıcı-adı>** diziniyle bir. Unix ve Windows arasındaki farklardan biri de bu. Yukarıda gördüğümüz **git** ve **c++** komutlarını da deneyin. Çalışmazsa Bülent hocaya danışıverin.
 2) [Project Euler 15. Problem](https://projecteuler.net/problem=15) satranç tahtasında iki çapraz köşe arasındaki en kısa yolları nasıl sayabiliriz? 2x2 tahtada 6 yol var. Ya 3x3'te?
-
-Çevirimiçi Dersler (Ücretsiz)
---
-[Giriş dersleri](https://www.sololearn.com/en/learn/courses/c-plus-plus-introduction)  
-[Orta seviye dersler](https://www.sololearn.com/en/learn/courses/c-plus-plus-intermediate)   
-[Yapay beyinden öneriler](https://chatgpt.com/share/674775c0-d424-8009-835a-a1745715f8a7)  Ufak tefek hatalar var ama yine de çok faydalı bilgiler.  
-
-Diğer Siteler
---
-[İlk proje (Euler)](https://projecteuler.net/problem=1)  
-
-[C++ referans](https://en.cppreference.com)  
 
 Windows'da Terminal, C++ Derleyici ve Editor
 --
 [Windows'a linux benzeri terminal ekle (cygwin)](https://cygwin.com/install.html) + 
-[Cygwin'e c++ derleyici ekle (cygport paketine dahil)](https://stackoverflow.com/questions/44354169/how-to-install-g-in-cygwin?newreg=f4dff0a25415471fa12f1dd8c109a3fe) +   
+[Cygwin'e c++ derleyici eklemek için cygport paketini indir](https://stackoverflow.com/questions/44354169/how-to-install-g-in-cygwin?newreg=f4dff0a25415471fa12f1dd8c109a3fe) +   
 ilk program `deneme.cpp` diye bir dosya olsun: 
 ```bash
 $ c++ deneme.cpp -o dene
@@ -149,11 +150,11 @@ $ ./dene
 
 Literate (Okuryazar Programlama)
 --
-[Buradan başla](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb). 
+[Buradan başla](https://mybinder.org/v2/gh/jupyter-xeus/xeus-cling/stable?filepath=notebooks/xcpp.ipynb)  
 
-[jupyter-xeus-cling](https://github.com/jupyter-xeus/xeus-cling/)
+[jupyter-xeus-cling](https://github.com/jupyter-xeus/xeus-cling/)  
 
-- Kullanım kılavuzu: https://xeus-cling.readthedocs.io/
+[Kullanım kılavuzu](https://xeus-cling.readthedocs.io/)
 
 
 ```c++
@@ -171,10 +172,6 @@ main();
     	okuryazar 
     	programlamaya...
 
-
-```c++
-
-```
 
 ## Usage
 
