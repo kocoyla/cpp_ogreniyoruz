@@ -49,13 +49,13 @@ PE 15
 ----
 [PE 15](https://projecteuler.net/problem=15) Project Euler'in 15. problem çok güzel ve öğretici. Aradakileri atlamakta pek sakınca yok. Onlara sonra döneriz. Bu problem satranç tahtasının çizgileri üzerinde en kısa yolları bulmak ve saymakla ilgili. Sol üst köşeden sağ alt köşeye giden yolların hepsini saymak istiyoruz. Gelecek dersten önce biraz uğraşmanızda fayda var. Şu ipuçları işinize yarayabilir:  
 
-İpucu 1) 1x1'lik tahtada sadece iki yol var. Birinci yol sağa git, sonra aşağıya git olsun. Öbür yol da önce aşağıya git sonra sağa git olacak. 2x2'lik tahtada 6 yol var. Bunları 1x1'lik çözümü kullanarak bulalım. Bu teknik çok güçlü ve genel bir tekniktir ve **dynamic programming** adıyla da bilinir.
+*İpucu 1)* 1x1'lik tahtada sadece iki yol var. Birinci yol sağa git, sonra aşağıya git olsun. Öbür yol da önce aşağıya git sonra sağa git olacak. 2x2'lik tahtada 6 yol var. Bunları 1x1'lik çözümü kullanarak bulalım. Bu teknik çok güçlü ve genel bir tekniktir ve **dynamic programming** adıyla da bilinir.
 
-İpucu 2) PE 2'de gördüğümüz özyineleme (recursion) yöntemi çok faydalı olacak. Ama 10x10'a kadar deneyin. Sonra çok yavaşlar ve hatta belleğe sığmayabilir!   
+*İpucu 2)* PE 2'de gördüğümüz özyineleme (recursion) yöntemi çok faydalı olacak. Ama 10x10'a kadar deneyin. Sonra çok yavaşlar ve hatta belleğe sığmayabilir!   
 
-İpucu 3) Küçük tahtadaki, yani daha önce bulduğumuz yanıtı iki boyutlu bir diziyle (`bellek[N][N]`) belleğe yazarsak, tekrar tekrar özyinelemeye ve hesaplamaya gerek kalmaz. Fibonaççi serisini hızlandırmak için tek boyutlu bellek yeter (`bellek[N]`). Bakın bu çözüm derste yaptığımıza çok benziyor ama çok daha hızlı:  [hızlı fibonaççi](https://onlinegdb.com/9zcoMg7HN).    
+*İpucu 3)* Küçük tahtadaki, yani daha önce bulduğumuz yanıtı iki boyutlu bir diziyle (`bellek[N][N]`) belleğe yazarsak, tekrar tekrar özyinelemeye ve hesaplamaya gerek kalmaz. Fibonaççi serisini hızlandırmak için tek boyutlu bellek yeter (`bellek[N]`). Bakın bu çözüm derste yaptığımıza çok benziyor ama çok daha hızlı:  [hızlı fibonaççi](https://onlinegdb.com/9zcoMg7HN).    
 
-İpucu 4) Çok sade ve güzel bir çözümü var. Özyinelemenin gücünü ortaya koyacak iyice.
+*İpucu 4)* Çok sade ve güzel bir çözümü var. Özyinelemenin gücünü ortaya koyacak iyice.
 
 Biraz düşünün, biraz kod yazın, gelecek hafta beraber çözelim.    
 
