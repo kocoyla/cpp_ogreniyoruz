@@ -7,7 +7,7 @@ Geçen hafta Project Euler'in ilk sorusunu çözmüştük beraber. Bu derste de 
 
 Çözümler aşağıda.  
 
-Dersimizin sonunda kendi türlerimizi tanımlamaya hızlı bir giriş yaptık. Şu ana kadar çoğunlukla temel türler görmüş ve kullanmıştık sadece. Örneğin: bool, int, double, char. Bir de standart kütüpten türler gördük. Örneğin std::string, std::vector, vb. Ama ya Kişi diye bir tür olsun istersek? Ya da Telefon diye ya da Dikdörtgen diye bir tür? Bunları gelecek hafta görmeye başlayalım.   
+Dersimizin sonunda kendi türlerimizi tanımlamaya hızlı bir giriş yaptık. Şu ana kadar çoğunlukla temel türler görmüş ve kullanmıştık sadece. Örneğin: `bool`, `int`, `double`, `char`. Bir de standart kütüpten türler gördük. Örneğin `std::string`, `std::vector`, vb. Ama ya `Kişi` diye bir tür olsun ve ad, soyad, tel bilgilerini biraya getirsin istersek? Onun için bir de `Telefon` diye bir tür faydalı olmaz mı? Ya da geometrik şekiller için örneğin `Dikdörtgen` diye bir tür? Bunları gelecek hafta görmeye başlayalım.   
 
 Beraber yazdığımız kodlar
 ----
