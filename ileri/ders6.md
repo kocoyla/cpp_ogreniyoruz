@@ -12,7 +12,16 @@ Dersimizin sonunda kendi türlerimizi tanımlamaya hızlı bir giriş yaptık. �
 Beraber yazdığımız kodlar
 ----
 [Fibonaççi ve özyineleme]( 
-https://www.onlinegdb.com/3BkmN8ubE)   
+https://www.onlinegdb.com/3BkmN8ubE). Bunda özyinelemeli fonksiyon tanımlaması yapmıştık, ama hatalı olmuş. Daha doğrusu şöyle olacak: 
+```
+// klasik fonksiyon tanımı bire bir:
+y = f(x) // yani (x1, y1), (x2, y2), (x3, y3), ...
+
+// özyinelemeli tanım:
+f(0) = sabit
+f(n+1) = g(f(n), f(n-1), f(n-2), ..., f(1), f(0))
+// yani daha önceki bazı değerlerin bir fonksiyonu
+```  
 
 [PE 2 çözümü]( 
 https://www.onlinegdb.com/NPW4wUzoH)  
