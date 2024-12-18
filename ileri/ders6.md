@@ -31,4 +31,4 @@ https://www.onlinegdb.com/Yiqp2YvUo.
 
 Türlere giriş:  
 https://sololearn.com/compiler-playground/cVc74iqt2Ul0.   
-Bu en son kodun en başında temel türlerle ilgili küçük bir soru var. Onu da yanıtlamaya çalışın.  
+Bu en son kodun en başında temel sayı türleriyle ilgili küçük bir soru var. Onu da yanıtlamaya çalışın.  
