@@ -147,4 +147,9 @@ $ c++ deneme.cpp -o dene
 $ ./dene
 ```
 [Bir de emacs editor iyi olur](https://ftp.gnu.org/gnu/emacs/windows/emacs-29/emacs-29.4-installer.exe). Eski ama [özgür bir yazılım](https://www.gnu.org/software/emacs/). [Özgür yazılım vakfı](https://fsf.org) ve pekçok gönüllü tarafından geliştiriliyor ve destekleniyor.    
-[Bu da modern VS Code editörü ve IDE'si](https://code.visualstudio.com/). Bunda yazıp bizim cygwin terminalinde derlemeyi ve çalıştırmayı deneyebilirsiniz.    
+[Bu da modern VS Code editörü ve IDE'si](https://code.visualstudio.com/). Bunda yazıp bizim cygwin terminalinde derlemeyi ve çalıştırmayı deneyebilirsiniz. 
+
+Altıncı ders
+--
+[Notlar burada](ileri/ders6.md).
+
