@@ -29,6 +29,12 @@ https://www.onlinegdb.com/NPW4wUzoH.
 PE 3 çözümü:  
 https://www.onlinegdb.com/Yiqp2YvUo.  
 
-Türlere giriş:  
+Yeni türlere giriş:  
 https://sololearn.com/compiler-playground/cVc74iqt2Ul0.   
-Bu en son kodun en başında temel sayı türleriyle ilgili küçük bir soru var. Onu da yanıtlamaya çalışın.  
+Bu en son kodun en başında temel sayı türleriyle ilgili küçük bir soru var. Onu da yanıtlamaya çalışın. Bir de c++ temel türlerle kolaylıkla hesaplayabileceğimiz en büyük doğal sayının şu olduğunu bulun:  
+18446744073709551615.  
+Türü: unsigned long. 
+Yani 18,446,744,073,709,551,615.  
+Yani 18 milyar çarpı milyardan fazla.  
+Yani 1.8e19'dan fazla ama 1.8e20'den az.  Doğru mu?  
+Yanıtı için biraz düşündükten sonra şuna bakın.  https://onlinegdb.com/MMtBYyiXQ
