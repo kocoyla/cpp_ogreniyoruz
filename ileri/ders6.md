@@ -7,21 +7,10 @@ Geçen hafta Project Euler'in ilk sorusunu çözmüştük beraber. Bu derste de 
 
 Çözümler aşağıda.  
 
-Ayrıca [PE 15](https://projecteuler.net/problem=15)'e de giriş yaptik. Satranç tahtasının çizgileri üzerinde en kısa yolları bulmak ve saymak hakkında birkaç ipucu verdik. Sol üst köşeden sağ alt köşeye giden yolları bulmak istiyoruz.  
-
-İpucu 1) 1x1'lik tahtada sadece iki yol var: sağa git, sonra aşağıya git. Ya da önce aşağıya git sonra sağa git. 2x2lik tahtada 6 yol var. Bunları 1x1lik çözümü kullanara nasıl bulabiliriz?  
-
-İpucu 2) PE 2'de gördüğümüz özyineleme (recursion) yöntemi çok faydalı olacak. Ama 10x10'a kadar deneyin. Sonra çok yavaşlar ve hatta belleğe sığmayabilir!   
-
-İpucu 3) Küçük tahtadaki çözümü iki boyutlu bir diziyle belleğe yazarsak tekrar tekrar özyinelemeye ve hesaplamaya gerek kalmaz.  
-
-Biraz düşünün, biraz kod yazın, gelecek hafta beraber çözelim. Çok sade ve güzel bir çözümü var.  
-
-En sonda da kendi türlerimizi tanımlamaya hızlı bir giriş yaptık. Şu ana kadar hep temel türler (örneğin bool, int, double, char) ve standart kütüpten türler (örneğin std::string, std::vector, vb) görmüş ve kullanmıştık sadece. Kişi diye bir tür olsun. Telefon diye bir tür olsun. Dikdörtgen diye bir tür olsun. Bunları gelecek hafta görmeye başlayalım.    
-
+Dersimizin sonunda kendi türlerimizi tanımlamaya hızlı bir giriş yaptık. Şu ana kadar çoğunlukla temel türler görmüş ve kullanmıştık sadece. Örneğin: bool, int, double, char. Bir de standart kütüpten türler gördük. Örneğin std::string, std::vector, vb. Ama ya Kişi diye bir tür olsun istersek? Ya da Telefon diye ya da Dikdörtgen diye bir tür? Bunları gelecek hafta görmeye başlayalım.   
 
 Beraber yazdığımız kodlar
-====  
+----
 [Fibonaççi ve özyineleme]( 
 https://www.onlinegdb.com/3BkmN8ubE)   
 
@@ -45,4 +34,23 @@ Yani 18 milyar kere milyardan fazla.
 Yani 1.8e19'dan fazla ama 1.8e20'den az.  
 Doğru mu?  
 Yanıtı için biraz düşündükten sonra şuna bakın:
-[Sayısal Sınırlar](https://onlinegdb.com/MMtBYyiXQ).
+[Sayısal Sınırlar](https://onlinegdb.com/MMtBYyiXQ).  
+
+PE 15
+----
+[PE 15](https://projecteuler.net/problem=15) Project Euler'in 15. problem çok güzel ve öğretici. Aradakileri atlamakta pek sakınca yok. Onlara sonra döneriz. Bu problem satranç tahtasının çizgileri üzerinde en kısa yolları bulmak ve saymakla ilgili. Sol üst köşeden sağ alt köşeye giden yolların hepsini saymak istiyoruz. Gelecek dersten önce biraz uğraşmanızda fayda var. Şu ipuçları işinize yarayabilir:  
+
+İpucu 1) 1x1'lik tahtada sadece iki yol var. Birinci yol sağa git, sonra aşağıya git olsun. Öbür yol da önce aşağıya git sonra sağa git olacak. 2x2'lik tahtada 6 yol var. Bunları 1x1'lik çözümü kullanarak bulalım. Bu teknik çok güçlü ve genel bir tekniktir ve **dynamic programming** adıyla da bilinir.
+
+İpucu 2) PE 2'de gördüğümüz özyineleme (recursion) yöntemi çok faydalı olacak. Ama 10x10'a kadar deneyin. Sonra çok yavaşlar ve hatta belleğe sığmayabilir!   
+
+İpucu 3) Küçük tahtadaki, yani daha önce bulduğumuz yanıtı iki boyutlu bir diziyle (`bellek[N][N]`) belleğe yazarsak, tekrar tekrar özyinelemeye ve hesaplamaya gerek kalmaz. Fibonaççi serisini hızlandırmak için tek boyutlu bellek yeter (`bellek[N]`). Bakın bu çözüm derste yaptığımıza çok benziyor ama çok daha hızlı:  [hızlı fibonaççi](https://onlinegdb.com/9zcoMg7HN).    
+
+İpucu 4) Çok sade ve güzel bir çözümü var. Özyinelemenin gücünü ortaya koyacak iyice.
+
+Biraz düşünün, biraz kod yazın, gelecek hafta beraber çözelim.    
+
+Not
+----
+*Dinamik programlama* diye google edince yapay beyinden faydalı olabilecek bilgiler çıktı. YouTube videosuna link de var, ilgilenenlere: [Gemini on Dynamic Programming](https://docs.google.com/document/d/1ASiWWVzfq-02uKg9foiEJ0XCbrhyJHPJvqJIVoPA11g/edit?usp=sharing).
+
