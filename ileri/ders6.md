@@ -30,4 +30,5 @@ PE 3 çözümü:
 https://www.onlinegdb.com/Yiqp2YvUo.  
 
 Türlere giriş:  
-https://sololearn.com/compiler-playground/cVc74iqt2Ul0.  
+https://sololearn.com/compiler-playground/cVc74iqt2Ul0.   
+En başta temel türlerle ilgili küçük bir soru var. Onu da yanıtlamaya çalışın.  
