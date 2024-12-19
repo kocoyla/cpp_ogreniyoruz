@@ -49,7 +49,7 @@ PE 15
 ----
 [PE 15](https://projecteuler.net/problem=15) Project Euler'in 15. problem çok güzel ve öğretici. Aradakileri atlamakta pek sakınca yok. Onlara sonra döneriz. Bu problem satranç tahtasının çizgileri üzerinde en kısa yolları bulmak ve saymakla ilgili. Sol üst köşeden sağ alt köşeye giden yolların hepsini saymak istiyoruz. Gelecek dersten önce biraz uğraşmanızda fayda var. Şu ipuçları işinize yarayabilir:  
 
-*İpucu 1)* 1x1'lik tahtada sadece iki yol var. Birinci yol sağa git, sonra aşağıya git olsun. Öbür yol da önce aşağıya git sonra sağa git olacak. 2x2'lik tahtada 6 yol var. Bunları 1x1'lik çözümü kullanarak bulalım. Bu teknik çok güçlü ve genel bir tekniktir ve **dynamic programming** adıyla da bilinir.
+*İpucu 1)* 1x1'lik tahtada sadece iki yol var. Birinci yol sağa git, sonra aşağıya git olsun. Öbür yol da önce aşağıya git sonra sağa git olacak. 2x2'lik tahtada 6 yol var. Bunları 1x1'lik çözümü kullanarak bulalım. Yani, bir problemi çözmeden önce ona benzeyen daha küçük bir problemi çözmek. Bu indirgeme tekniği çok becerikli ve genel bir tekniktir ve **dynamic programming** adıyla da bilinir. Ama nasıl olacak? İkinci ipucuna da bakın:
 
 *İpucu 2)* PE 2'de gördüğümüz özyineleme (recursion) yöntemi çok faydalı olacak. Ama 10x10'a kadar deneyin. Sonra çok yavaşlar ve hatta belleğe sığmayabilir!   
 
