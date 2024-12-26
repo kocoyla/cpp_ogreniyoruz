@@ -151,5 +151,11 @@ $ ./dene
 
 Altıncı ders
 --
-[Notlar burada](ileri/ders6.md).
+[Notlar](ileri/ders6.md).
+
+Yedinci ders
+--
+[Notlar ve ders görsel kaydı](ileri/ders7.md).
+
+
 
