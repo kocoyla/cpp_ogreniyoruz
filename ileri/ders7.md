@@ -13,7 +13,7 @@ Asal çarpanlar
 Döngümüz bazı çarpanları bulmuyordu. Onu düzelttik. Bir de derste görmedik ama 
 döngü yerine özyineleme yöntemiyle de bulabiliriz asal çarpanları. Örneğin:  
 
-[Asal çarpanları özyineleyerek bulalım](https://www.onlinegdb.com/iim7dEsNE)  
+[Asal çarpanları özyineleyerek bulalım](https://www.onlinegdb.com/fIuuPTf33)  
 Hem `namespace` örneği hem de `<list>` dosyasından `std::list` adlı dizi türü (*dizin* de denir) kullanımına dikkat. Çok faydalı bir türdür.
 
 Fibonaççi
