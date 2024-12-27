@@ -23,7 +23,8 @@ Geçen derste bu özyineleme kodunda iki terim (`fib(n-1) + fib(n-2)`) olduğu i
 çatallanma ve ikiye katlanma olduğunu konuşmuştuk. Onun için büyük sayıları hesaplamak 
 çok zaman alabiliyor. Hızlandırmak için bir bellek ekledik.
 
-[Bellekle hızlandırılmış Fibonaççi](https://onlinegdb.com/XpOcEU6jD)   
+[Bellekle hızlandırılmış Fibonaççi](https://onlinegdb.com/XpOcEU6jD) 
+    
 [Bu da sayı sınırının farkında Fibonaççi kodu](https://www.onlinegdb.com/9zcoMg7HN)  
 
 Yeni türler
