@@ -23,10 +23,10 @@ Bir başka faydası da farklı çözümleri bir arada kodlamaya ve kolaylıkla d
 Referanslar 
 ----
 
-[1](https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170).   
-[2](https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-namespaces).  
-[3](https://en.cppreference.com/w/cpp/language/namespace).  
-[4](https://www.geeksforgeeks.org/namespace-in-c/).  
-[5](https://study.com/academy/lesson/using-namespaces-in-computing-definition-examples.html).  
-[6](https://www.geeksforgeeks.org/why-it-is-important-to-write-using-namespace-std-in-cpp-program/).  
-[7](https://builtin.com/articles/using-namespace-std).  
+[1](https://learn.microsoft.com/en-us/cpp/cpp/namespaces-cpp?view=msvc-170). Learn Microsoft.com.    
+[2](https://www.simplilearn.com/tutorials/cpp-tutorial/cpp-namespaces). Simplilearn.com. 
+[3](https://en.cppreference.com/w/cpp/language/namespace). c++ referans.  
+[4](https://www.geeksforgeeks.org/namespace-in-c/). GeeksForGeeks.  
+[5](https://study.com/academy/lesson/using-namespaces-in-computing-definition-examples.html). Study.com.    
+[6](https://www.geeksforgeeks.org/why-it-is-important-to-write-using-namespace-std-in-cpp-program/). GeeksForGeeks.   
+[7](https://builtin.com/articles/using-namespace-std). builtin.com.  
