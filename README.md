@@ -52,6 +52,8 @@ Sağ alttaki **RUN** tuşuna basın.
 [Kod1](https://sololearn.com/compiler-playground/crpbSkBKD5ul) adres ve takma ad işlemcileri (pointer/reference).  
 [Kod2](https://sololearn.com/compiler-playground/cUWBwZrMqVkd) akıllı sayı dizileri (vector<int>).   
 
+Ayrıca, isim uzayları ne işe yarar diye güzel bir soru soruldu. [Yanıtı burada](ileri/neden-namespace-kullanırız.md).
+
 
 Dördüncü ders
 --
