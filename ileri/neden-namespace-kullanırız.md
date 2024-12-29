@@ -19,7 +19,7 @@ void deneme() {
 ```
 [Bütün kodu çalıştırın](https://onlinegdb.com/ua4tupWcv).  
 
-Bir başka faydası da farklı çözümleri bir arada kodlamaya ve kolaylıkla denemeye yarar [Stack overflow soru/yanıt](https://stackoverflow.com/questions/4211827/why-and-how-should-i-use-namespaces-in-c).  
+Bir başka faydası da farklı çözümleri bir arada kodlamaya ve kolaylıkla denemeye yarar: [Stack-Overflow'dan güzel soru/yanıt](https://stackoverflow.com/questions/4211827/why-and-how-should-i-use-namespaces-in-c).  
 
 Referanslar 
 ----
