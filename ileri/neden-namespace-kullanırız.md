@@ -1,4 +1,22 @@
-C++'da *ad alanları*, ya da *isim uzayları*, yazılımı mantıksal gruplar halinde düzenlemek için kullanılır. Özellikle, birden çok kitaplıkla çalışırken işlevler, sınıflar ve değişkenler gibi *tanımlayıcılar* için farklı kapsamlar oluşturarak ad çarpışmalarını önlemeye yarar. Bir başka deyişle, aynı yazılışı olan adların birbiriyle çakışmamasını sağlamaya yarar. 
+C++'da *ad alanları*, ya da *isim uzayları*, yazılımı mantıksal gruplar halinde düzenlemek için kullanılır. Özellikle, birden çok kitaplıkla çalışırken işlevler, sınıflar ve değişkenler gibi *tanımlayıcılar* için farklı kapsamlar oluşturarak ad çarpışmalarını önlemeye yarar. Bir başka deyişle, aynı yazılışı olan adların birbiriyle çakışmamasını sağlar. 
+
+Örneğin:
+``` 
+namespace sayı {
+    int kare(int x) {
+        return x * x;
+    }
+}
+namespace geo {
+    struct kare {
+        int x, y, kenar;
+    };
+} 
+void deneme() {
+    sayı::kare(9);
+    geo::kare{3, 4, 5};
+}
+```
 
 Bir başka faydası da farklı çözümleri bir arada kodlamaya ve kolaylıkla denemeye yarar [Stack overflow soru/yanıt](https://stackoverflow.com/questions/4211827/why-and-how-should-i-use-namespaces-in-c).  
 
