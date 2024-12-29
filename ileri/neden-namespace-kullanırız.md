@@ -17,7 +17,7 @@ void deneme() {
     geo::kare{3, 4, 5};
 }
 ```
-[Bütün kodu çalıştırın.] (https://onlinegdb.com/ua4tupWcv).  
+[Bütün kodu çalıştırın](https://onlinegdb.com/ua4tupWcv).  
 
 Bir başka faydası da farklı çözümleri bir arada kodlamaya ve kolaylıkla denemeye yarar [Stack overflow soru/yanıt](https://stackoverflow.com/questions/4211827/why-and-how-should-i-use-namespaces-in-c).  
 
