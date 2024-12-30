@@ -4,6 +4,8 @@ First exercise
   
 Do you understand it all?  
 
+And, don't just read it, run it, too! That's what any code is meant to do.  
+
 Can you fix the warning from the compiler?  
 
 [Here is one solution](https://onlinegdb.com/Q1E47L1hQ).  
