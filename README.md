@@ -157,7 +157,7 @@ Altıncı ders
 
 Yedinci ders
 --
-[Notlar ve ders görsel kaydı](ileri/ders7.md).
+[Notlar ve görsel kayıt](ileri/ders7.md).
 
 Sekizinci ders
 --
