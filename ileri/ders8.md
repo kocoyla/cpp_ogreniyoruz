@@ -1,6 +1,6 @@
 [Görsel kayıt](https://drive.google.com/file/d/1WpOxvV7uT1ift6mPO51yMSaSRt2ZfE-2/view?usp=drivesdk).  
 
-[std::list, namespace ve özyineleyerek asal çarpan bulma](https://onlinegdb.com/9m56IBI1M).   İşlevlerin girdisi ve çıktısı olarak *dizin* (std::list) kullandık.  
+[std::list, namespace ve özyineleyerek asal çarpan bulma](https://onlinegdb.com/9m56IBI1M).   İşlevlerin girdisi ve çıktısı olarak *dizin* (std::list) kullandık. Dizilerle dizinlerin farkı hakkında konuştuk.
 
 [2025, std::map ve std::pair veri yapıları](https://onlinegdb.com/aT8ic-BoR).   
 
