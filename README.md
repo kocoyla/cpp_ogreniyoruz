@@ -159,5 +159,8 @@ Yedinci ders
 --
 [Notlar ve ders görsel kaydı](ileri/ders7.md).
 
+Sekizinci ders
+--
+[Görsel kayıt, notlar, kod örnekleri](ileri/ders8.md).  
 
 
