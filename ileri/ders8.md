@@ -6,7 +6,7 @@
 
 [Ön işlemci komutları: #if, #else, #endif]( 
 https://onlinegdb.com/xf6G6EgDw
-).   Yapay beyin koduyla başladık, for döngüsüyle biraz oynadık. Ayrıca ++i ve i++ arasında farka baktık.   
+).   Yapay beyin koduyla başladık, for döngüsüyle biraz oynadık. Ayrıca ++i ve i++ arasındaki farka baktık.   
 
-[fayda.h başlık dosyası ve Sözlük yapısı](https://onlinegdb.com/xhCQeTBsM).  Eşlem (std::map) kullanarak çok tanımlı bir Sözlük yapısı gördük.   
+[fayda.h başlık dosyası ve Sözlük yapısı](https://onlinegdb.com/xhCQeTBsM).  Eşlem (std::map) ve std::string kullanarak çok tanımlı bir Sözlük yapısı oluşturduk.   
 
