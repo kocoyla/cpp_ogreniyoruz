@@ -8,5 +8,7 @@
 https://onlinegdb.com/xf6G6EgDw
 ).   Yapay beyin koduyla başladık, *for* döngüsüyle biraz oynadık. Ayrıca ++i ve i++ arasındaki farka baktık.   
 
-[fayda.h başlık dosyası ve Sözlük yapısı](https://onlinegdb.com/xhCQeTBsM).  Eşlem (std::map) ve std::string kullanarak çok tanımlı bir Sözlük yapısı oluşturduk.   
+[fayda.h başlık dosyası ve Sözlük yapısı](https://onlinegdb.com/xhCQeTBsM).  Eşlem (std::map), dizin (std::list) ve yazı (std::string) türlerini kullanarak çok tanımlı bir Sözlük yapısı oluşturduk.  
+
+Bunu çatallayıp, sözlüğe yeni sözcükler veya yeni tanımlar eklemeyi deneyebilirsiniz. 
 
