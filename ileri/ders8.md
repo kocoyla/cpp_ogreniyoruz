@@ -10,5 +10,8 @@ https://onlinegdb.com/xf6G6EgDw
 
 [fayda.h başlık dosyası ve Sözlük yapısı](https://onlinegdb.com/xhCQeTBsM).  Eşlem (std::map), dizin (std::list) ve yazı (std::string) türlerini kullanarak çok tanımlı bir Sözlük yapısı oluşturduk.  
 
-Bunu çatallayıp, sözlüğe yeni sözcükler veya yeni tanımlar eklemeyi deneyebilirsiniz. 
+Bunu çatallayıp sözlüğe yeni sözcükler veya yeni tanımlar eklemeyi deneyebilirsiniz. 
+
+[Ufak bir ipucu](https://coliru.stacked-crooked.com/a/78c37d4b42246c0e).  
+
 
