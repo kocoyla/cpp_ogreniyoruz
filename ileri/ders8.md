@@ -12,6 +12,6 @@ https://onlinegdb.com/xf6G6EgDw
 
 Bunu çatallayıp sözlüğe yeni sözcükler veya yeni tanımlar eklemeyi deneyebilirsiniz. 
 
-[Ufak bir ipucu](https://coliru.stacked-crooked.com/a/78c37d4b42246c0e).  
+[Bir küçük örnek daha. İpucu olsun](https://coliru.stacked-crooked.com/a/78c37d4b42246c0e). 14. ve 15. satırlara dikkat. Olmayan bir ögeyi arayınca ne oluyor? 
 
 
