@@ -13,3 +13,7 @@ https://onlinegdb.com/xf6G6EgDw
 Bunu çatallayıp sözlüğe yeni sözcükler veya yeni tanımlar eklemeyi deneyebilirsiniz. 
 
 [Bir küçük **eşlem**(*std::map*) örneği daha](https://coliru.stacked-crooked.com/a/2cbfbebdc875e918). 14. ve 15. satırlara dikkat. Eşlemde bulunmayan bir ögeyi *[]* işlemcisiyle okuyunca ne oluyor? 
+
+Kurulukta fayda olur mu?!
+---
+Bu arada yeri gelmişken bence çok önemli bir programlama ilkesine de değinelim: **DRY**: *Don't Repeat Yourself*. Bir programın yazılımında kopyalayıp yapıştırmaktan, yani aynı şeyleri yinelemekten kaçınmakta çok fayda var. Onun için, bu son örneği tekrar (!) yazalım: [tekrarlardan kaçınma örneği](https://coliru.stacked-crooked.com/a/260fc13e808be74c).  
