@@ -1,4 +1,4 @@
-[Görsel kayıt](https://drive.google.com/file/d/1zwkZlNUy0wBKcLLF9hJN__ogHwUnTavp/view). 50 dakika kadar.  
+[Görsel kayıt](https://drive.google.com/file/d/1zwkZlNUy0wBKcLLF9hJN__ogHwUnTavp/view). 51:54 uzunluğunda.   
 
 Önce geçen dersi tekrar ettik.  
 
