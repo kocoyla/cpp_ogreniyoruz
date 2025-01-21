@@ -66,7 +66,7 @@ Komut satırında: `make` yazmak yetti. Hatta, direk [*Emacs* editorü içinde](
 
 [Matematiksel tam sayı fonksiyonu](https://onlinegdb.com/37o_p7vq3).   
 
-10. satırda `Fonksiyon` türünü iki `int` değerin eşleşmesi olarak tanımladık. 32. satırda iki tane `Fonksiyon` tanımladık, `f` ve `f2` adında. 34 ve 35. satırlarda `f(x)` ve `f2(x)` değerlerini tanımladık. Sonra da fonksiyonları yazdırdık.
+Onuncu satırda `Fonksiyon` türünü iki `int` değerin eşleşmesi olarak tanımladık. Otuz ikinci satırda iki tane `Fonksiyon` tanımladık, `f` ve `f2` adında. 34 ve 35 satırlarında `f(x)` ve `f2(x)` değerlerini tanımladık. Sonra da fonksiyonları iki farklı `for` döngüsüyle yazdırdık.
 
 En son beş dakikada *karmaşık sayı* örneğiyle `struct` ya da `class` kullanarak yeni bir tür tanımlamaya hızlı bir giriş daha yaptık: 
 [Karmaşık (varsıl) sayı kodu](https://onlinegdb.com/SybVZuiJ_). `operator<<` işlevine baktık çabucak. Gelecek derste devam ederiz inşallah. Bu arada şu linklere bakıverin:  
