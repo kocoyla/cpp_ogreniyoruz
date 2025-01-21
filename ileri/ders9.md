@@ -42,7 +42,7 @@ int bak(eşlem e, char h) {
 }
 ```
 
-Derste `bak` işlevinin çıktı türünü `char` olarak belirlemiştik. Doğrusu `int` olacak. Hataya rağmen çalışmıştı. [Nedeni burada](https://www.sololearn.com/en/compiler-playground/cjfGIRFAb144). Derleyicinin uyarısına dikkat.  
+Derste `bak` işlevinin çıktı türünü `char` olarak belirlemiştik. Doğrusu `int` olacak. Hataya rağmen çalışmıştı. [Nedeni burada](https://www.sololearn.com/en/compiler-playground/cjfGIRFAb144). Derleyicinin uyarısına dikkat. Daha çok bilgi için: [stackoverflow-implicit-conversion](https://stackoverflow.com/questions/48650685/c-implicit-conversion-of-int-to-char).  
 
 Derleme ve çalıştırmayı hızlandırmak için de bir `makefile` yazdık:
 ```Makefile
