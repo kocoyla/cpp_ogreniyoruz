@@ -84,11 +84,14 @@ int main() {
 }
 ```
 
-Bu yaklaşımlar, kodun:
+Bu yaklaşımlar, yazılımların:
 - Daha düzenli
 - Güvenli
 - Tekrar kullanılabilir
-- Bakım ve değişiklik yapmayı kolaylaştırır.
+- Anlaşılır
+- Bakım ve değişiklik yapması daha kolay
+
+olmasına yardımcı olur.
 
 Sınıflar, karmaşık sistemleri küçük, yönetilebilir parçalara ayırarak programlarımızı daha anlaşılır kılar.
 
