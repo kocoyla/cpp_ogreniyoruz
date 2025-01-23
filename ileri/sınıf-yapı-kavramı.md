@@ -26,7 +26,7 @@ public:
         }
     }
 
-    void yavasla() {
+    void yavaşla() {
         if (hız > 0) {
             hız -= 10;
             cout << "Araba yavaşladı. Şu anki hız: " << hız << " km/s" << endl;
@@ -82,18 +82,18 @@ int main() {
 
     return 0;
 }
-```
+``` 
+
+[Kodun hepsi burada](https://onlinegdb.com/dbFycFP09).  
+
 
 Bu yaklaşımlar, yazılımların:
-- Daha düzenli
-- Güvenli
-- Tekrar kullanılabilir
-- Anlaşılır
-- Bakım ve değişiklik yapması daha kolay
+- Daha düzenli,
+- Güvenli,
+- Tekrar kullanılabilir ve
+- Bakım ve değişiklik yapması daha kolay olmasına yardımcı olur.  
 
-olmasına yardımcı olur.
-
-Sınıflar, karmaşık sistemleri küçük, yönetilebilir parçalara ayırarak programlarımızı daha anlaşılır kılar.
+Ayrıca, sınıflar, ve genelde yeni türler, karmaşık sistemleri küçük, yönetilebilir parçalara ayırarak programlarımızı daha anlaşılır kılar.
 
 Notlar:  
 1) Bu örnekte arabayı yeni bir tür olarak da düşünebiliriz. Her sınıf ya da yapı (`struct`) yeni bir tür oluşturarak yazılıma gereken karmaşık nesneleri düzenler ve anlaşılır kılar.  
