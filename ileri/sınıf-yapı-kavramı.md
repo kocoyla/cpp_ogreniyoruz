@@ -84,7 +84,7 @@ int main() {
 }
 ``` 
 
-[Kodun hepsi burada](https://onlinegdb.com/dbFycFP09).  
+[Kodun hepsini onlinegdb.com'da çalıştırmak için buraya tıklayabilirsiniz](https://onlinegdb.com/dbFycFP09).  
 
 
 Bu yaklaşımlar, yazılımların:
