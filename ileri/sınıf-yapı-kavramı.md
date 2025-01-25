@@ -116,6 +116,8 @@ std::list<Ay> aylar{
    // ...
    Ay("Aralık", 31)
 }
-```
+``` 
+
+[Tam çalışan ikili kalıp örneği](https://onlinegdb.com/dvtEol7le).   
 
 4) Programlama sanatını ve mühendisliğini güzel ve uyumlu çalışan çeşitli türlere ait bireylerinin yaşadığı bir sanal evreni tasarlamak, yaratmak ve çalıştırmak olarak düşünebiliriz.
