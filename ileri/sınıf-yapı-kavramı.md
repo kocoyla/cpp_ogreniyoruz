@@ -3,7 +3,7 @@ Nesne yönelimi de ne demek?
 
 C++'da sınıf (`class`) anahtar sözcüğü, nesne yönelimli programlamanın, ki OOP diye bilinir: *object oriented programming*, temel yapı taşlarından biridir. C++'ın çok başarılı olmuş ve hala çok kullanılan atası *C* diline eklediği en önemli iki beceriden biri olan sınıfları, gerçek hayattan bir örnek üzerinden anlamaya çalışalım. *C*'de olmayan öbür büyük *C++* becerisi de **tür kalıpları (class templates)**. Ona da aşağıda değineceğiz.
 
-Bir "Araba" sınıfı oluşturalım:
+Bir "Araba" sınıfı oluşturarak başlayalım:
 
 ```cpp
 class Araba {
@@ -14,12 +14,17 @@ private:
     int hız;
 
 public:
-    // Sınıfın yapıcı metodu
+    // Sınıfın yapıcı yöntemi 
     Araba(string _marka, string _model) {
         marka = _marka;
         model = _model;
         hız = 0;
     }
+
+    // istersek birden çok yapıcı da ekleyebiliriz. Ayrıca ilk değerleri en başta, gövdeye girmeden belirleyebiliyoruz
+    Araba():marka("Murat", "Şahin", 50) {};
+
+    // yıkıcı yönteme gerek yok! Neden?
 
     // Soyutlama (Abstraction) örneği: Karmaşık işlemler basit yöntemlerle gizlenir
     void hızlan() {
@@ -59,7 +64,7 @@ public:
 
     void hızlıGit() {
         // Ana sınıftan gelen özellikleri kullanarak yeni bir yöntem 
-        for(int i = 0; i < 5; i++) {
+        for(int i = 0; i < 5; ++i) {
             hızlan();
         }
     }
