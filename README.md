@@ -65,19 +65,19 @@ Beşinci ders
 
 Altıncı ders
 --
-[Notlar](ileri/ders6.md).  Fibonaççi dizisi, asal çarpanlar, yeni türlere ve Project Euler 'den 15. soruya bir bakış.
+[Notlar](ileri/ders6.md).  Fibonaççi dizisi, asal çarpanlar, yeni türlere ve Project Euler'den 15. soruya bir bakış.
 
 Yedinci ders
 --
-[Notlar ve görsel kayıt](ileri/ders7.md). Özyineleme tekniği (recursion), 'std::list' kalıbı, bellekle hızlandırma (memoizasyon), yeni türler: 'konum, aralık ve dortgen,' özgür bellek, özgür dizi.
+[Notlar ve görsel kayıt](ileri/ders7.md). Özyineleme tekniği (recursion), `std::list` kalıbı, bellekle hızlandırma (*memoizasyon*), yeni türler: `konum, aralık` ve `dortgen`, özgür bellek, özgür dizi.
 
 Sekizinci ders
 --
-[Görsel kayıt, notlar, kod örnekleri](ileri/ders8.md). Yine 'std::list' ile özyineleme, 2025 sayısının özellikler ve 'std::map' kalıbı, fayda.h başlık dosyası ve faydaları, dizi (array), akıllı dizi (vector), dizin (list) ve eşlem (map) arasındaki benzerlikler ve farklar. Bir de *DRY* ilkesi.
+[Görsel kayıt, notlar, kod örnekleri](ileri/ders8.md). Yine `std::list` kullanarak özyineleme, 2025 sayısının özellikleri ve `std::map` kalıbı, *fayda.h* başlık dosyası ve faydaları, dizi (array), akıllı dizi (`vector`), dizin (`list`) ve eşlem (`map`) kalıpları arasındaki benzerlikler ve farklar. Bir de *DRY* ilkesi.
 
 Dokuzuncu ders
 --
-[Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md).  Eşlem kalıbını pekiştirme çalışması, matematiksel tam sayı fonksiyonu, 'makefile' ile otomasyon, karmaşık sayı türüyle nesne yönelimine hızlı giriş. Ha, bir de [koco ortamına davet](ozetle.com).  
+[Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md).  Eşlem kalıbını pekiştirme çalışması, matematiksel tam sayı fonksiyonu, 'makefile' ile otomasyon, karmaşık sayı türüyle nesne yönelimine hızlı giriş. Ha, bir de [koco ortamıyla öğrenmeye davet](https://ozetle.com).  
 
 Nesne yönelimi de ne demek 
 --
