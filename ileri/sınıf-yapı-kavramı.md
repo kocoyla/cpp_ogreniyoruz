@@ -108,11 +108,14 @@ Altıncı dersimizde gördüğümüz `Kişi` türünü ad, soyad, yaş ve telefo
 Yedinci dersimizde `dörtgen` türü, en, boy ve konum bilgilerinin bileşkesiydi. `konum` türünü x ve y sayılarıyla tanımladık. Yani konum da x ve y koordinatlarının bileşkesi olarak düşünülebilir. Ayrıca `dörtgen`, a ve b sayılarının bileşkesi olan `aralık` türünü kullandı. Aynı `konum` gibi `aralık` da bir ikili ama verdiğimiz anlamlar farklı.  [dörtgen, konum, aralık türleri](https://www.onlinegdb.com/3fk-Akokh). 
 
 İkili bileşkeler o kadar faydalı ve yaygın ki, standart kütüphane bize `std::pair<tür1, tür2>` adlı türü sunuyor. Bu en genel anlamda bir ikili tür: iki alt türün bileşkesi: `tür1` ve `tür2`. Bu bileşenler henüz birer değişken. Ama, onlara değer vererek somut bir tür üretiveriyoruz: 
-```
+```c++
 typedef std::pair<std::string, int> Ay;
 std::list<Ay> aylar{
-   Ay("Ocak", 31), Ay("Şubat", 28), // ...
-Ay("Aralık", 31)}
+   Ay("Ocak", 31), 
+   Ay("Şubat", 28), // ya da 29!?
+   // ...
+   Ay("Aralık", 31)
+}
 ```
 
 4) Programlama sanatını ve mühendisliğini güzel ve uyumlu çalışan çeşitli türlere ait bireylerinin yaşadığı bir sanal evreni tasarlamak, yaratmak ve çalıştırmak olarak düşünebiliriz.
