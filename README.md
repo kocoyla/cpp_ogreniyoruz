@@ -79,7 +79,7 @@ Dokuzuncu ders
 --
 [Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md).  Eşlem kalıbını pekiştirme çalışması, matematiksel tam sayı fonksiyonu, `makefile` ile otomasyon, karmaşık sayı türüyle *nesne yönelimine* hızlı giriş. Ha, bir de [koco ortamıyla öğrenmeye davet](https://sites.google.com/view/koco-surum).  `c++` değil `scala` dili ama bazı büyük fayda ve üstünlükleri var. Amacımız illa c++ değil de genelde program yazma becerimizi geliştirmek ve daha iyi öğrenmek değil mi zaten?
 
-Nesne yönelimi de ne demek 
+Nesne yönelimi de ne demek?
 --
 `class`, `struct`, `typedef` ve ileride göreceğimiz `enum` ve `template` anahtar sözcükleri, büyük ve sağlam yazılım yapıları oluşturmakta çok önemli ve faydalı özellikler. *Nesne yönelimli yazılım* ilkelerini hayata geçirmek için temel yapı taşları oluyorlar. [Bu konunun temel kavramlarını sunan kısa bir giriş yazısı yazdık yapay beyinle beraber](ileri/sınıf-yapı-kavramı.md). Bir sonraki derste üzerinden geçeceğiz inşallah. Şöyle bir bakıverin, kodları çalıştırın, çatallayıp biraz kurcalayın ki ders sırasında iyice pekiştirebilelim bu kavramları.
 
