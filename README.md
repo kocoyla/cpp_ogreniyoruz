@@ -81,7 +81,7 @@ Dokuzuncu ders
 
 Nesne yönelimi de ne demek 
 --
-`class`, `struct`, `typedef` ve ileride göreceğimiz `enum` ve `template` anahtar sözcükleri, büyük ve sağlam yazılım yapıları oluşturmakta çok önemli ve faydalı özellikler. *Nesne yönelimli yazılım* ilkelerini hayata geçirmek için temel yapı taşları oluyorlar. [Bu konunun temel kavramlarını sunan kısa bir giriş yazısı yazdık yapay beyinle beraber](ileri/sınıf-yapı-kavramı.md). Bir sonraki derste üzerinden geçeceğiz inşallah. Şöyle bir bakıverin önceden ki ders sırasında iyice pekiştirebilelim.
+`class`, `struct`, `typedef` ve ileride göreceğimiz `enum` ve `template` anahtar sözcükleri, büyük ve sağlam yazılım yapıları oluşturmakta çok önemli ve faydalı özellikler. *Nesne yönelimli yazılım* ilkelerini hayata geçirmek için temel yapı taşları oluyorlar. [Bu konunun temel kavramlarını sunan kısa bir giriş yazısı yazdık yapay beyinle beraber](ileri/sınıf-yapı-kavramı.md). Bir sonraki derste üzerinden geçeceğiz inşallah. Şöyle bir bakıverin, kodları çalıştırın, çatallayıp biraz kurcalayın ki ders sırasında iyice pekiştirebilelim bu kavramları.
 
 Onuncu ders
 --
