@@ -76,7 +76,7 @@ Bu örnekte:
 
 1. **Kapsama (Encapsulation)**: Araba'nın iç özellikleri (`marka`, `model`, `hız`) `private` olarak tanımlanmış. Bunlara doğrudan erişilemiyor, sadece sınıfın yöntemleri (metod da denir) aracılığıyla kontrollü bir şekilde değiştirilebiliyor.
 
-2. **Soyutlama (Abstraction)**: `hızlan()` ve `yavasla()` yöntemleri, hız değişiminin karmaşık mantığını basit, anlaşılır metodlarla gizliyor. Kullanıcı detayları bilmeden bu yöntemleri kullanabilir.
+2. **Soyutlama (Abstraction)**: `hızlan()` ve `yavaşla()` yöntemleri, hız değişiminin karmaşık mantığını basit, anlaşılır metodlarla gizliyor. Kullanıcı detayları bilmeden bu yöntemleri kullanabilir.
 
 3. **Kalıtım (Inheritance)**: `SporAraba` sınıfı, `Araba` sınıfından tüm özellikleri ve metodları miras alıyor. Üstelik kendi özel yöntemini (`hızlıGit()`) de ekleyebiliyor.
 
@@ -102,7 +102,7 @@ Bu yaklaşımlar, yazılımların:
 - Tekrar kullanılabilir ve
 - Bakım ve değişiklik yapması daha kolay olmasına yardımcı olur.  
 
-Ayrıca, sınıflar, ve genelde yeni türler, karmaşık sistemleri küçük, yönetilebilir parçalara ayırarak programlarımızı daha anlaşılır kılar.
+Ayrıca, sınıflar ve genelde yeni türler, karmaşık sistemleri küçük, yönetilebilir parçalara ayırarak programlarımızı daha anlaşılır kılar.
 
 Sınıf ve tür eş anlamlı kavramlar
 ----
@@ -112,8 +112,7 @@ Bu örnekte arabayı yeni bir tür olarak da düşünebiliriz. Her sınıf ya da
 
 `typedef` anahtar sözcüğü 
 ----
-Daha önce `typedef` örnekleri görmüştük. Türkçeye tür tanımlama diye cevirebiliriz. Bu anahtar sözcüğü bazen türkere takma ad vermek için kullandık. 
-Örneğin:   
+Daha önce `typedef` örnekleri görmüştük. Türkçeye tür tanımlama diye çevirebiliriz. Bu anahtar sözcüğü bazen türlere takma ad vermek için kullandık. Örneğin:    
 ```c++ 
 typedef unsigned long int Sayı;
 Sayı s{123456789101112l}; 
@@ -136,7 +135,7 @@ Altıncı dersimizde gördüğümüz `Kişi` türünü ad, soyad, yaş ve telefo
 
 Yedinci dersimizde `dörtgen` türü, en, boy ve konum bilgilerinin bileşkesiydi. `konum` türünü x ve y sayılarıyla tanımladık. Yani konum da x ve y koordinatlarının bileşkesi olarak düşünülebilir. Ayrıca `dörtgen`, a ve b sayılarının bileşkesi olan `aralık` türünü kullandı. Aynı `konum` gibi `aralık` da bir ikili ama verdiğimiz anlamlar farklı.  [dörtgen, konum, aralık türleri](https://www.onlinegdb.com/3fk-Akokh). 
 
-İkili bileşkeler o kadar faydalı ve yaygın ki, standart kütüphane bize `std::pair<tür1, tür2>` adlı tür kalıbını sunuyor. Bu en genel anlamda bir ikili tür: iki alt türün bileşkesi: `tür1` ve `tür2`. Bu bileşenler henüz birer değişken, yani birer türün adı. Ama, onlara değer vererek bu kalıptan somut bir tür üretiveriyoruz: 
+İkili bileşkeler o kadar faydalı ve yaygın ki, standart kütüphane bize `std::pair<tür1, tür2>` adlı tür kalıbını sunuyor. Bu en genel anlamda bir tür ikili: iki alt türün bileşkesi: `tür1` ve `tür2`. Bu bileşenler henüz birer değişken, yani bir türün adı. Onlara değer vererek bu kalıptan somut bir tür üretiveriyoruz: 
 ```c++
 typedef std::pair<std::string, int> Ay;
 std::list<Ay> aylar{
@@ -151,8 +150,8 @@ std::list<Ay> aylar{
 
 Yazılım mühendisliğine değişik bir bakış 
 ----
-Programlamaya matematiksel, mantıksal, mühendislik ve yüksek teknolojik bazı problemlerin çözümü olarak bakarız genelde. Asal çarpanlar, Fibonacci, patika sayımı, veri tabanları, iş idaresi ... 
+Programlamaya matematiksel, mantıksal, mühendislik ve yüksek teknolojik bazı problemlerin çözümü olarak bakarız genelde. Asal çarpanlar, Fibonacci, patika sayımı, veri tabanları, iş, müşteri ilişkiler idaresi, internet tarayıcılar, arama motorları, sosyal medya uygulamaları, mobil oyunlar... 
 
-Elbette Avatar gibi bilim kurgu filmlerinde gördüğümüz bilgisayar grafikleri de bir sanat ama onları bir tarafa bırakalım. Yazılımın kendisine bakalım. Bu ciddi mühendislik ve iş alanı sadece kuru mantık ve uygulamalı problem çözümü değil. Temelinde çok daha yaratıcı bir sanatçılığa uzanıyor: Güzel ve uyumlu çalışan çeşitli yeni yeni *türlere (classes/types)* ait *bireylerinin* ya da *nesnelerin (objects)* birlikte yaşadığı ve güzelce geçindiği sanal bir evreni tasarlıyor, yaratıyor ve elimizdeki donanım üzerinde verimli çalışmasını gerçekleştiriyoruz. Yani tadını alana, elinden gelene, gayret edene, epey keyifli ve tatmin edici bir sanat oluyor. Kullanıcılar severek faydalaniyorlar sanatımızdan. Hadi alın siz de fırçanızı elinize!  
+Ama işin bir de sanat tarafı var. Elbette Avatar, Kaptan Marvel gibi bilim kurgu filmlerinde gördüğümüz bilgisayar grafikleri de bir sanat ve pek çok kıymetli grafik sanatçısı, ressam emek veriyor. Ama onları bir tarafa bırakalım. Yazılımın kendisine bakalım. Bu ciddi mühendislik ve iş alanı sadece kuru mantık ve uygulamalı problem çözümü değil. Temelinde çok daha yaratıcı bir sanatçılığa uzanıyor: Güzel ve uyumlu çalışan çeşitli yeni yeni *türlere (classes/types)* ait *bireylerin* ya da *nesnelerin (objects)* birlikte yaşadığı ve güzelce geçindiği sanal bir evreni tasarlıyor, yaratıyor ve elimizdeki donanım üzerinde verimli çalışmasını gerçekleştiriyoruz. Yani tadını alana, elinden gelene, gayret edene, epey keyifli ve tatmin edici bir sanat oluyor. Kullanıcılar da severek faydalaniyorlar bu sanatın ürünlerinden. Hadi alın siz de fırçanızı elinize!  
 
-Bülent hocadan sevgilerle..  
+Bülent hocanızdan sevgilerle..  
