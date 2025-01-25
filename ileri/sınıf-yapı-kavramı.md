@@ -104,8 +104,7 @@ Notlar:
 
 Altıncı dersimizde gördüğümüz `Kişi` türünü ad, soyad, yaş ve telefon bilgilerinin bileşkesi olarak tanımladık. 
 
-[Kişi türü onlinegdb](https://onlinegdb.com/2LlCHEI1H)
-.   
+[Kişi türü onlinegdb](https://onlinegdb.com/2LlCHEI1H).   
   
 [Kişi türü sololearn](https://www.sololearn.com/en/compiler-playground/cVc74iqt2Ul0).  
 
