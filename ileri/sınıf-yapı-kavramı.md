@@ -95,12 +95,26 @@ Bu yaklaşımlar, yazılımların:
 
 Ayrıca, sınıflar, ve genelde yeni türler, karmaşık sistemleri küçük, yönetilebilir parçalara ayırarak programlarımızı daha anlaşılır kılar.
 
-Notlar:  
-1) Bu örnekte arabayı yeni bir tür olarak da düşünebiliriz. Her sınıf ya da yapı (`struct`) yeni bir tür oluşturarak yazılıma gereken karmaşık nesneleri düzenler ve anlaşılır kılar.  
+Sınıf ve tür eş anlamlı kavramlar
+----
+Bu örnekte arabayı yeni bir tür olarak da düşünebiliriz. Her sınıf ya da yapı (`struct`) yeni bir tür oluşturarak yazılıma gereken karmaşık nesneleri düzenler ve anlaşılır kılar.  
 
-2) `class` ve `struct` anahtar sözcüklerinin tek farkı içindeki verilerin gizli ya da görünür olması. Şu erişim belirleyicilerle (access specifier) kendimiz düzenlemeler yapabiliriz: `public` (görünür), `private` (gizli) ve `protected` (korunur).
+`class` ve `struct` anahtar sözcüklerinin tek farkı içindeki verilerin gizli ya da görünür olması. Şu erişim belirleyicilerle (access specifier) kendimiz düzenlemeler yapabiliriz: `public` (görünür), `private` (gizli) ve `protected` (korunur).  
 
-3) Kapsama kavramı **bileşim (composition)** kavramıyla yakından ilişkili. Örneğimizde `Araba` türünü, marka, model ve hız bilgilerinin bir bileşkesi olarak tanımladık. `SporAraba` da bir tür araba, ama onun bileşiminde bir de motorGücü var. 
+`typedef` anahtar sözcüğü 
+----
+Daha önce `typedef` örnekleri görmüştük. Türkçeye tür tanımlama diye cevirebiliriz. Bu anahtar sözcüğü bazen türkere takma ad vermek için kullandık. 
+Örneğin:   
+```c++ 
+typedef unsigned long int Sayı;
+Sayı s{123456789101112l}; 
+``` 
+
+Bazen de *tür kalıpları (class templates)* kullanarak yepyeni türler tanımlamak için kullandık. Örnek aşağıda. 
+
+**Bileşim (composition)** kavramı
+----
+Bu yeni kavram, yukarıda bahsettiğimiz *kapsama* kavramıyla yakından ilişkili. Örneğimizde `Araba` türünü, marka, model ve hız bilgilerinin bir bileşkesi olarak tanımladık. `SporAraba` da bir tür araba, ama onun bileşiminde bir de motorGücü var. 
 
 Altıncı dersimizde gördüğümüz `Kişi` türünü ad, soyad, yaş ve telefon bilgilerinin bileşkesi olarak tanımladık. 
 
@@ -123,4 +137,8 @@ std::list<Ay> aylar{
 
 [Tam çalışan ikili kalıp örneği](https://onlinegdb.com/dvtEol7le).   
 
-4) Programlama sanatını ve mühendisliğini güzel ve uyumlu çalışan çeşitli türlere ait bireylerinin yaşadığı bir sanal evreni tasarlamak, yaratmak ve çalıştırmak olarak düşünebiliriz.
+Yazılım mühendisliğine değişik bir bakış 
+----
+Programlamaya matematiksel, mantıksal problemlerin çözümü olarak bakarız genelde. Asal çarpanlar, Fibonacci, patika sayımı... 
+
+Ama bu ciddi mühendislik alanında aynı zamanda çok yaratıcı bir sanatçılık da söz konusu: Güzel ve uyumlu çalışan çeşitli yeni yeni türlere (classes/types) ait bireylerinin ya da nesnelerin (objects) birlikte yaşadığı ve güzelce geçindiği sanal bir evreni tasarlamak, yaratmak ve çalışmasını gerçekleştirmek olarak düşünebiliriz.
