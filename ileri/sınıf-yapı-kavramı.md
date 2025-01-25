@@ -100,7 +100,7 @@ Notlar:
 
 2) `class` ve `struct` anahtar sözcüklerinin tek farkı içindeki verilerin gizli ya da görünür olması. Şu erişim belirleyicilerle (access specifier) kendimiz düzenlemeler yapabiliriz: `public` (görünür), `private` (gizli) ve `protected` (korunur).
 
-3) Kapsama kavramı **bileşim (composition)** kavramıyla yakından ilişkili. Örneğimizde `Araba` türünü, marka,model ve hız bilgilerinin bir bileşkesi olarak tanımladık. `SporAraba` da bir tür araba, ama onun bileşiminde bir de motorGücü var. 
+3) Kapsama kavramı **bileşim (composition)** kavramıyla yakından ilişkili. Örneğimizde `Araba` türünü, marka, model ve hız bilgilerinin bir bileşkesi olarak tanımladık. `SporAraba` da bir tür araba, ama onun bileşiminde bir de motorGücü var. 
 
 Altıncı dersimizde gördüğümüz `Kişi` türünü ad, soyad, yaş ve telefon bilgilerinin bileşkesi olarak tanımladık. 
 [Kişi türü](https://www.sololearn.com/en/compiler-playground/cVc74iqt2Ul0).  
