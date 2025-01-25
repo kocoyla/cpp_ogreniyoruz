@@ -21,7 +21,8 @@ public:
         hız = 0;
     }
 
-    // istersek birden çok yapıcı da ekleyebiliriz. Ayrıca ilk değerleri en başta, gövdeye girmeden belirleyebiliyoruz
+    // istersek birden çok yapıcı da ekleyebiliriz. 
+    // Ayrıca ilk değerleri en başta, gövdeye girmeden önce belirleyebiliyoruz
     Araba():marka("Murat", "Şahin", 50) {};
 
     // yıkıcı yönteme gerek yok! Neden?
