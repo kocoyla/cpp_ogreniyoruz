@@ -142,6 +142,6 @@ std::list<Ay> aylar{
 
 Yazılım mühendisliğine değişik bir bakış 
 ----
-Programlamaya matematiksel, mantıksal problemlerin çözümü olarak bakarız genelde. Asal çarpanlar, Fibonacci, patika sayımı... 
+Programlamaya matematiksel, mantıksal, mühendislik ve yüksek teknolojik bazı problemlerin çözümü olarak bakarız genelde. Asal çarpanlar, Fibonacci, patika sayımı, veri tabanları, iş idaresi ... 
 
-Ama bu ciddi mühendislik alanında aynı zamanda çok yaratıcı bir sanatçılık da söz konusu: Güzel ve uyumlu çalışan çeşitli yeni yeni türlere (classes/types) ait bireylerinin ya da nesnelerin (objects) birlikte yaşadığı ve güzelce geçindiği sanal bir evreni tasarlamak, yaratmak ve çalışmasını gerçekleştirmek olarak düşünebiliriz.
+Elbette Avatar gibi bilim kurgu filmlerinde gördüğümüz bilgisayar grafikleri de bir sanat ama onları bir tarafa bırakalım. Yazılımın kendisine bakalım. Bu ciddi mühendislik ve iş alanı sadece kuru mantık ve uygulamalı problem çözümü değil. Temelinde çok daha yaratıcı bir sanatçılığa uzanıyor: Güzel ve uyumlu çalışan çeşitli yeni yeni *türlere (classes/types)* ait *bireylerinin* ya da *nesnelerin (objects)* birlikte yaşadığı ve güzelce geçindiği sanal bir evreni tasarlıyor, yaratıyor ve elimizdeki donanım üzerinde verimli çalışmasını gerçekleştiriyoruz. Yani tadını alana, elinden gelen, gayret edene, epey keyifli ve tatmin edici bir sanat oluyor. Hadi alın fırçanızı elineze!
