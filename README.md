@@ -77,7 +77,7 @@ Sekizinci ders
 
 Dokuzuncu ders
 --
-[Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md).  Eşlem kalıbını pekiştirme çalışması, matematiksel tam sayı fonksiyonu, `makefile` ile otomasyon, karmaşık sayı türüyle *nesne yönelimine* hızlı giriş. Ha, bir de [koco ortamıyla öğrenmeye davet](https://sites.google.com/view/koco-surum).  `c++` değil `scala` dili ama bazı büyük fayda ve üstünlükleri var. Amacımız da program yazmayı öğrenmek değil mi zaten?
+[Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md).  Eşlem kalıbını pekiştirme çalışması, matematiksel tam sayı fonksiyonu, `makefile` ile otomasyon, karmaşık sayı türüyle *nesne yönelimine* hızlı giriş. Ha, bir de [koco ortamıyla öğrenmeye davet](https://sites.google.com/view/koco-surum).  `c++` değil `scala` dili ama bazı büyük fayda ve üstünlükleri var. Amacımız illa c++ değil de genelde program yazma becerimizi geliştirmek ve daha iyi öğrenmek değil mi zaten?
 
 Nesne yönelimi de ne demek 
 --
