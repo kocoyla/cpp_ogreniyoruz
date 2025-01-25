@@ -1,4 +1,7 @@
-C++'da sınıf (`class`), nesne yönelimli programlamanın temel yapı taşlarından biridir. Sınıfları, gerçek hayattan bir örnek üzerinden anlatmaya çalışalım.
+Nesne yönelimi de ne demek?
+====
+
+C++'da sınıf (`class`) anahtar sözcüğü, nesne yönelimli programlamanın temel yapı taşlarından biridir. Kendince çok başarılı olmuş atası olan *C* diline eklediği en önemli iki beceriden biri olan sınıfları, gerçek hayattan bir örnek üzerinden anlamaya çalışalım. (*C*'de olmayan öbür büyük *C++* becerisi de **tür kalıpları (templates)**. O da aşağıda konumuz olacak!)
 
 Diyelim ki bir "Araba" sınıfı oluşturalım:
 
