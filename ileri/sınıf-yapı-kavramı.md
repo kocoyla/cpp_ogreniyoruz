@@ -1,7 +1,7 @@
 Nesne yönelimi de ne demek?
 ====
 
-C++'da sınıf (`class`) anahtar sözcüğü, nesne yönelimli programlamanın, ki OOP diye bilinir: *object oriented programming*, temel yapı taşlarından biridir. C++'ın çok başarılı olmuş ve hala çok kullanılan atası *C* diline eklediği en önemli iki beceriden biri olan sınıfları, gerçek hayattan bir örnek üzerinden anlamaya çalışalım. *C*'de olmayan öbür büyük *C++* becerisi de **tür kalıpları (class templates)**. Ona da aşağıda değineceğiz.
+C++'da sınıf (`class`) anahtar sözcüğü, nesne yönelimli programlamanın temel yapı taşlarından biridir. *OOP* diye duymuş olabilirsiniz: *object oriented programming*. C++'ın çok başarılı olmuş ve hala çok kullanılan atası *C* diline eklediği en önemli iki beceriden birincidi olan sınıfları, gerçek hayattan bir örnek üzerinden anlamaya çalışalım. *C*'de olmayan öbür büyük *C++* becerisi de **tür kalıplarıdır (class templates)**. Ona da aşağıda değineceğiz.
 
 Bir "Araba" sınıfı oluşturarak başlayalım:
 
