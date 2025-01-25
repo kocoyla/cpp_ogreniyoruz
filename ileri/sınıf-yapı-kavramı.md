@@ -154,4 +154,4 @@ Programlamaya matematiksel, mantıksal, mühendislik ve yüksek teknolojik bazı
 
 Ama işin bir de sanat tarafı var. Elbette Avatar, Kaptan Marvel gibi bilim kurgu filmlerinde gördüğümüz bilgisayar grafikleri de bir sanat ve pek çok kıymetli grafik sanatçısı, ressam emek veriyor. Ama onları bir tarafa bırakalım. Yazılımın kendisine bakalım. Bu ciddi mühendislik ve iş alanı sadece kuru mantık ve uygulamalı problem çözümü değil. Temelinde çok daha yaratıcı bir sanatçılığa uzanıyor: Güzel ve uyumlu çalışan çeşitli yeni yeni *türlere (classes/types)* ait *bireylerin* ya da *nesnelerin (objects)* birlikte yaşadığı ve güzelce geçindiği sanal bir evreni tasarlıyor, yaratıyor ve elimizdeki donanım üzerinde verimli çalışmasını gerçekleştiriyoruz. Yani tadını alana, elinden gelene, gayret edene, epey keyifli ve tatmin edici bir sanat oluyor. Kullanıcılar da severek faydalaniyorlar bu sanatın ürünlerinden. Hadi siz de alın bir fırça elinize!  
 
-Bülent hocanızdan sevgilerle..  
+Bülent hocanızdan 🧑🏻‍🦳 ve [Claude 3.5 Haiku](https://claude.ai) 🤖 yapay beyninden sevgilerle.  
