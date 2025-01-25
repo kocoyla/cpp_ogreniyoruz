@@ -110,7 +110,10 @@ typedef unsigned long int Sayı;
 Sayı s{123456789101112l}; 
 ``` 
 
-Bazen de *tür kalıpları (class templates)* kullanarak yepyeni türler tanımlamak için kullandık. Örnek aşağıda. 
+[Tam kod burada]
+(https://onlinegdb.com/X5tlT-dRP).  
+
+Bazen de *tür kalıpları (class templates)* kullanarak yepyeni türler tanımlamak için kullandık. Örnek olarak aşağıda 'Ay' türüne bakacağız. Ama önce temelde ne oluyor, daha iyi kavrayalım.
 
 **Bileşim (composition)** kavramı
 ----
