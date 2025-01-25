@@ -103,7 +103,8 @@ Notlar:
 3) Kapsama kavramı **bileşim (composition)** kavramıyla yakından ilişkili. Örneğimizde `Araba` türünü, marka, model ve hız bilgilerinin bir bileşkesi olarak tanımladık. `SporAraba` da bir tür araba, ama onun bileşiminde bir de motorGücü var. 
 
 Altıncı dersimizde gördüğümüz `Kişi` türünü ad, soyad, yaş ve telefon bilgilerinin bileşkesi olarak tanımladık. 
-[Kişi türü](https://www.sololearn.com/en/compiler-playground/cVc74iqt2Ul0).  
+[Kişi türü onlinegdb](https://onlinegdb.com/2LlCHEI1H).  
+[Kişi türü sololearn](https://www.sololearn.com/en/compiler-playground/cVc74iqt2Ul0).  
 
 Yedinci dersimizde `dörtgen` türü, en, boy ve konum bilgilerinin bileşkesiydi. `konum` türünü x ve y sayılarıyla tanımladık. Yani konum da x ve y koordinatlarının bileşkesi olarak düşünülebilir. Ayrıca `dörtgen`, a ve b sayılarının bileşkesi olan `aralık` türünü kullandı. Aynı `konum` gibi `aralık` da bir ikili ama verdiğimiz anlamlar farklı.  [dörtgen, konum, aralık türleri](https://www.onlinegdb.com/3fk-Akokh). 
 
