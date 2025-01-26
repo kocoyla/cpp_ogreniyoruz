@@ -74,11 +74,11 @@ public:
 
 Bu örnekte:
 
-1. **Kapsama (Encapsulation)**: Araba'nın iç özellikleri (`marka`, `model`, `hız`) `private` olarak tanımlanmış. Bunlara doğrudan erişilemiyor, sadece sınıfın yöntemleri (metod da denir) aracılığıyla kontrollü bir şekilde değiştirilebiliyor.
+1. **Kapsama (Encapsulation)**: Araba'nın iç özellikleri (`marka`, `model`, `hız`) `private` olarak tanımlanmış. Bunlara doğrudan erişilemiyor, sadece sınıfın yöntemleri (metod da denir) aracılığıyla kontrollü bir şekilde değiştirilebiliyor. Kapsarken koruyor.
 
-2. **Soyutlama (Abstraction)**: `hızlan()` ve `yavaşla()` yöntemleri, hız değişiminin karmaşık mantığını basit, anlaşılır metodlarla gizliyor. Kullanıcı detayları bilmeden bu yöntemleri kullanabilir.
+2. **Soyutlama (Abstraction)**: `hızlan()` ve `yavaşla()` yöntemleri, hız değişiminin karmaşık mantığını basit, anlaşılır metodlarla gizliyor. Kullanıcı detayları bilmeden bu yöntemleri kullanabilir. Detaylar yerine önemli konulara odaklanmamıza yardım ediyor.
 
-3. **Kalıtım (Inheritance)**: `SporAraba` sınıfı, `Araba` sınıfından tüm özellikleri ve metodları miras alıyor. Üstelik kendi özel yöntemini (`hızlıGit()`) de ekleyebiliyor.
+3. **Kalıtım (Inheritance)**: `SporAraba` sınıfı, `Araba` sınıfından tüm özellikleri ve metodları miras alıyor. DRY (don't repeat yourself) ilkesinde olduğu gibi, üst sınıfta bir kere yazıyor, alt sınıflarda hazır buluyor, kolaylıkla kullanabiliyoruz. Birden fazla alt sınıf olan durumlarda, ki yaygın bir durum, faydası artıyor. Örneğin `ElektrikliAraba`, `TekKişilik` vb eklenebilir. Üstelik alt sınıflar kendi özel yöntemlerini de (`hızlıGit()` örneğinde olduğu gibi) ekleyebiliyorlar. 
 
 Kullanım örneği:
 
