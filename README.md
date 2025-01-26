@@ -69,7 +69,7 @@ Altıncı ders
 
 Yedinci ders
 --
-[Notlar ve görsel kayıt](ileri/ders7.md). Özyineleme tekniği (recursion), `std::list` kalıbı, bellekle hızlandırma (*memoizasyon*), yeni türler: `konum, aralık` ve `dortgen`, özgür bellek, özgür dizi.
+[Notlar ve görsel kayıt](ileri/ders7.md). Özyineleme tekniği (recursion), `std::list` kalıbı, bellekle hızlandırma (*memoizasyon*), yeni türler: `konum, aralık` ve `dörtgen`, özgür bellek, özgür dizi konuları.  
 
 Sekizinci ders
 --
