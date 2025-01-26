@@ -77,7 +77,7 @@ Sekizinci ders
 
 Dokuzuncu ders
 --
-[Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md). Eşlem kalıbını pekiştirmek için örnekler, matematiksel tam sayı fonksiyonları, `makefile` ve `make` uygulaması ile otomasyon, karmaşık sayı türüyle *nesne yönelimine* hızlı giriş. Ha, bir de yansa Koco ortamıyla da öğrenmeye davet.
+[Görsel kayıt, notlar, kod örnekleri](ileri/ders9.md). Eşlem kalıbını pekiştirmek için örnekler, matematiksel tam sayı fonksiyonları, `makefile` ve `make` uygulaması ile otomasyon, karmaşık sayı türüyle *nesne yönelimine* hızlı giriş.
 
 Nesne yönelimi de ne demek?
 --
