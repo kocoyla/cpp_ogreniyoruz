@@ -85,4 +85,9 @@ Nesne yönelimi de ne demek?
 
 Onuncu ders
 --
-Vay be, neredeyse 1️⃣0️⃣ olacak❕
+Vay be, neredeyse 1️⃣0️⃣ olacak❕ 
+
+Koco ve Scala'yla öğrenmeye devam
+--
+Son yıllarda Hintli ve İsveçli birkaç iş arkadaşımla epey emek verdiğimiz bu gönüllü açık kaynak öğrenme ortamını denemeye davet ediyorum hepinizi. Derslerimizden birinde ufak bir sunum da yaparım isterseniz. Daha çok bilgi ve indirmek için [link burada](ileri/kocoya-davet.md).
+
