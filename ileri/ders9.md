@@ -79,7 +79,7 @@ Kendi bilgisayarınızda Mandelbrot kümesininin kodunu görmek, kümeyi çizdir
 Koco uygulaması C++ değil *Scala* diliyle çalışıyor. *Scala* en modern bilgisayar dillerden biri. Büyük fayda ve üstünlükleri var. İşlevsel ve nesne yönelimsel programlama, tür çıkarım ve Java Virtual Machine tekniklerini bir araya getirebilen çok becerikli bir dil. Programlar, 'Scala' ile sade ifadelerle daha kısa ve öz yazılabiliyor. *C++* kadar hızlı dil az bulunur. *Scala*'da o kadar hızlı değil ama programları *Scala* ile yazmak çok daha az zaman alıyor. Amacımız illa *C++* değil de program yazma becerimizi geliştirmek ve daha iyi öğrenmek değil mi zaten? Hem de, *Scala*'nın ileri tekniklerini gördükçe *C++* anlayış ve becerimiz de artacak.
 
 Ufak bir örnek olarak dizileri sıraya sokan en iyi yöntemlerden biri olan [*quick sort* algoritmasını](https://en.m.wikipedia.org/wiki/Quicksort) programlayalım:  
-[C++ kodu](https://onlinegdb.com/CKvmETRyJ). 
+[C++ kodu](https://onlinegdb.com/CKvmETRyJ).   
 [Scala kodu](https://scastie.scala-lang.org/kocoyla/eTdUJUd8SsCGsCyhYEMJww).     
 [Koco kodu](http://ikojo.in/sf/LiPt8QF/0).   
 
