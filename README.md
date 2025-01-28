@@ -83,9 +83,10 @@ Nesne yönelimi de ne demek?
 --
 `class`, `struct`, `typedef` ve ileride göreceğimiz `enum` ve `template` anahtar sözcükleri, büyük ve sağlam yazılım yapıları oluşturmakta çok önemli ve faydalı özellikler. *Nesne yönelimli yazılım* ilkelerini hayata geçirmek için temel yapı taşları oluyorlar. [Bu konunun temel kavramlarını sunan kısa bir giriş yazısı yazdık yapay beyinle beraber](ileri/sınıf-yapı-kavramı.md). Bir sonraki derste üzerinden geçeceğiz inşallah. Şöyle bir bakıverin, kodları çalıştırın, çatallayıp biraz kurcalayın ki ders sırasında iyice pekiştirebilelim bu kavramları.
 
-Onuncu ders
+[Onuncu ders](ileri/ders10.md)
 --
-Vay be, neredeyse 1️⃣0️⃣ olacak❕ 
+Vay be, 1️⃣0️⃣ oldu❕ Tatilin son haftası olmasına rağmen Talha ve Eren geldiler. Teşekkür ediyorum ikisine de. Sayelerinde kısa bir ders yaptık. Kaydı hazır olunca yollayacağım. Windows ve Mac bilgisayarlarda çalışan IDE'ler hakkında konuştuk biraz: [VS Code hem Windows and MacOS için](https://code.visualstudio.com/), [Xcode sadece MacOS için](https://developer.apple.com/xcode/), ve [Cinder](https://libcinder.org/gallery) adlı grafik kütüphaneden iki örnek gördük (dönen Dünya küresi ve ekrana çizgi çizme programı). Sonra kayda başladık ve [`Araba` türüne daldık](https://www.onlinegdb.com/dbFycFP09). *Kapsama/koruma, soyutlama, kalıtım ve bileşim* kavramlarının somut örneklerini gördük. `this` anahtar sözcüğü ile `Araba &` yöntem çıktısını birleştirdik... 
+
 
 Koco ve Scala'yla öğrenmeye devam
 --
