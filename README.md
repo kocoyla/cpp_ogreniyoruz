@@ -85,7 +85,7 @@ Nesne yönelimi de ne demek?
 
 [Onuncu ders](ileri/ders10.md)
 --
-Vay be, 1️⃣0️⃣ oldu❕ Tatilin son haftası olmasına rağmen Talha ve Eren geldiler. Teşekkür ediyorum ikisine de. Sayelerinde kısa bir ders yaptık. Kaydı hazır olunca yollayacağım. Windows ve Mac bilgisayarlarda çalışan IDE'ler hakkında konuştuk biraz: [VS Code hem Windows and MacOS için](https://code.visualstudio.com/), [Xcode sadece MacOS için](https://developer.apple.com/xcode/), ve [Cinder](https://libcinder.org/gallery) adlı grafik kütüphaneden iki örnek gördük (dönen Dünya küresi ve ekrana çizgi çizme programı). Sonra kayda başladık ve [`Araba` türüne daldık](https://www.onlinegdb.com/dbFycFP09). *Kapsama/koruma, soyutlama, kalıtım ve bileşim* kavramlarının somut örneklerini gördük. `this` anahtar sözcüğü ile `Araba &` yöntem çıktısını birleştirdik... 
+Görsel kayıt ve notlar başlıktaki linkte. 
 
 
 Koco ve Scala'yla öğrenmeye devam
