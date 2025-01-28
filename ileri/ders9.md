@@ -70,7 +70,7 @@ Onuncu satırda `Fonksiyon` türünü iki `int` değerin eşleşmesi olarak tan�
 
 En son beş dakikada *karmaşık sayı* örneğiyle `struct` ya da `class` kullanarak yeni bir tür tanımlamaya hızlı bir giriş daha yaptık: 
 [Karmaşık (varsıl) sayı kodu](https://onlinegdb.com/SybVZuiJ_). `operator<<` işlevine baktık çabucak. Gelecek derste devam ederiz inşallah. Bu arada şu linklere bakıverin:  
-1) [Khan Akademisinden Karmaşık Sayı dersi](https://tr.khanacademy.org/math/precalculus/imaginary-and-complex-numbers).  
+1) [Khan Akademisinden Karmaşık Sayı dersi](https://tr.khanacademy.org/math/precalculus/imaginary-and-complex-numbers).  [Bilhassa güç döngüsünü gösteren giriş görseli](https://tr.khanacademy.org/math/precalculus/imaginary-and-complex-numbers/the-imaginary-numbers/v/introduction-to-i-and-imaginary-numbers).  
 2) [Vikipedi maddesi](https://tr.wikipedia.org/wiki/Karmaşık_sayı).  
 3) [Mandelbrot kümesi](https://tr.wikipedia.org/wiki/Mandelbrot_k%C3%BCmesi). Karmaşık sayı düzleminde tanımlanan bir küme. Sınırı hem var, hem yok!    
 
