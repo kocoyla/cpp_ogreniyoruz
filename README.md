@@ -85,7 +85,7 @@ Nesne yönelimi de ne demek?
 
 [Onuncu ders](ileri/ders10.md)
 --
-Görsel kayıt ve notlar başlıktaki linkte. 
+Görsel kayıt ve notlar başlıktaki linkte ve [burada](ileri/ders10.md). 
 
 
 Koco ve Scala'yla öğrenmeye devam
