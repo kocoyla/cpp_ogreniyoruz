@@ -52,6 +52,6 @@ int main() {
 }
 ``` 
 
-Bu `friend` yani arkadaş anlamına gelen anahtar sözcüğüyle türün üyesi olmayan işlevler ve işlemciler de türün gizli verilerini okumak ve gerekirse değiştirebilmek için izin almış oluyorlar. Bir başka örnek de `std::cin` ile kullanıcıdan girdi okumak için kullandığımız `std::istream& operator>>(...)`. Kodumuza eklemek ister misiniz? Öğretici bir alıştırma olur. Biraz uğraşın isterseniz. [Çözümü de burada](https://onlinegdb.com/pI4w1tUIl2).
+Bu `friend` yani arkadaş anlamına gelen anahtar sözcüğüyle türün üyesi olmayan işlevler ve işlemciler de türün gizli verilerini okumak ve gerekirse değiştirebilmek için izin almış oluyorlar. Bir başka örnek de `std::cin` ile kullanıcıdan girdi okumak için kullandığımız `std::istream& operator>>(...)`. Kodumuza eklemek ister misiniz? Öğretici bir alıştırma olur. Biraz uğraşın isterseniz. [Çözümü de burada](https://onlinegdb.com/pI4w1tUIl2). Çalıştırınca, komut satırından sizin bir ad ve sayı girmenizi bekleyecek. Okuduğu girdileri de `Temel` türümüzün bir nesnesine yazacak.
 
 Bu on birinci dersimiz biraz ağır bir ders oldu. **C++** dili, hızını ve nesne-eğilimli becerilerini bu sağlam ve titiz temellere borçlu. Devam etmek dileğiyle... 
