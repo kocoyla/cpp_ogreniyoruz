@@ -33,6 +33,20 @@ Bununla da `this` anahtar sözcüğünü görmüş olduk: bu değişken, nesneni
 
 Son olarak da `friend` anahtar sözcüğünü kullanarak `cout` için gerekli olan çıktı akımı işlemcisini tanımladık: 
 ```c++
-friend ostream& operator<<(ostream &, const Temel&);``` 
+class Temel { 
+    // ...
+    friend ostream& operator<<(ostream &, const Temel&);
+}; 
 
-Biraz ağır bir ders oldu, ama **c++** dili hızlı becerisini bu temellere borçlu. Devam etmek dileğiyle.  
+ostream& operator<< (ostream& o, const Temel& t) {
+    o << t.ad << " " << t.sayi << endl;
+    return o;
+}
+
+int main() { 
+    Temel temel;
+    std::cout << temel << std::endl; 
+}
+``` 
+
+Biraz ağır bir ders oldu, ama **c++** dili hızını ve becerilerini bu sağlam ve titiz temellere borçlu. Devam etmek dileğiyle.  
