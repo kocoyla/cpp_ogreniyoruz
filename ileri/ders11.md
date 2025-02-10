@@ -22,4 +22,4 @@ private:
 };
 ```
 
-Bununla deneyler yapmak için daha sade bir [kod da burada](https://onlinegdb.com/Mzd1nDHWM). Ama, üç dosya kullanıyor: `main.cpp, Temel.h, Temel.cpp`.  
+Bununla deneyler yapmak için daha sade bir [yazılım projesi de burada](https://onlinegdb.com/Mzd1nDHWM). Üç dosya kullanıyor: `main.cpp, Temel.h, Temel.cpp`.  
