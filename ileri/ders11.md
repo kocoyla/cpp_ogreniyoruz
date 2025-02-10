@@ -31,11 +31,11 @@ Temel & operator=(const Temel& girdi) {
 }```
 Bununla da `this` anahtar sözcüğünü görmüş olduk: bu değişken, nesnenin kendisinin bellekteki adresini tutan bir *pointer*, yani nesnenin göstergesi.
 
-Son olarak da `friend` anahtar sözcüğünü kullanarak `cout` için gerekli olan çıktı akımı işlemcisini tanımladık: 
+Son olarak da `friend` anahtar sözcüğünü kullanarak `<iostream>` kütüphanesinden gelen `std::cout` için gerekli olan çıktı akımı işlemcisini tanımladık: 
 ```c++
 class Temel { 
     // ...
-    friend ostream& operator<<(ostream &, const Temel&);
+    friend std::ostream& operator<<(std::ostream &, const Temel&);
 }; 
 
 ostream& operator<< (ostream& o, const Temel& t) {
@@ -49,6 +49,6 @@ int main() {
 }
 ``` 
 
-Bu `friend` yani arkadaş anlamına gelen anahtar sözcüğüyle türün üyesi olmayan işlevler ve işlemciler de türün gizli verilerini okumak ve gerekirse değiştirebilmek için izin almış oluyorlar. 
+Bu `friend` yani arkadaş anlamına gelen anahtar sözcüğüyle türün üyesi olmayan işlevler ve işlemciler de türün gizli verilerini okumak ve gerekirse değiştirebilmek için izin almış oluyorlar. Bir başka örnek de `std::cin` ile kullanıcıdan girdi okumak için kullandığımız `std::istream& operator>>(...)`. Kodumuza eklemek ister misiniz? Öğretici bir alıştırma olur.  
 
-Biraz ağır bir ders oldu, ama **C++** dili hızını ve becerilerini bu sağlam ve titiz temellere borçlu. Devam etmek dileğiyle... 
+Bu on birinci dersimiz biraz ağır bir ders oldu. Ama, **C++** dili hızını ve nesne-eğilimli becerilerini bu sağlam ve titiz temellere borçlu. Devam etmek dileğiyle... 
