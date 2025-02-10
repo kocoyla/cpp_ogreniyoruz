@@ -29,7 +29,9 @@ Derste ayrıca bir nesnenin değerini değiştirmek için kullanılan eşittir i
 Temel & operator=(const Temel& girdi) {
    // ...
    return *this;
-}```
+}
+```
+
 Bununla da `this` anahtar sözcüğünü görmüş olduk: bu değişken, nesnenin kendisinin bellekteki adresini tutan bir *pointer*, yani nesnenin göstergesi.
 
 Son olarak da `friend` anahtar sözcüğünü kullanarak `<iostream>` kütüphanesinden gelen `std::cout` için gerekli olan çıktı akımı işlemcisini tanımladık: 
