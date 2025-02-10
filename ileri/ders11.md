@@ -1,11 +1,11 @@
 [Görsel kayıt burada](https://drive.google.com/file/d/1Ls8NcHeju8L_yrY0eDc9ZUUdb_Faqyzr/view). 1 saat 24 dakika uzunluğunda.  
 
-Derste beraber yazdığımız yeni `Temel` adlı türün (`class`) [kodu burada]( https://www.onlinegdb.com/IO4hMr9R-). Epey çıktısı var, hatta en başta derleyici bir uyarı veriyor. Biraz düzeltmeler yapılmış hali de [burada]( https://onlinegdb.com/8h299NKAP). Uyarının çözümünü veriyor ve `cout` yerine `dout` nesnesi kullanarak da çıktıyı temizliyor. Bir de `void ana()` işlevinin en başında, Gürkan kardeşimizin rica ettiği *eşlem* (`std::map`) için ufak bir örnek de var. Cok yaygın kullanılan yazıdan sayıya eşleme: `std::string` -> `int` eşlemesi. Bu arada, eşlemin ilk değerini verirken, `x` adlı sayı değişkeninin ilk değerini belirtmedik. Çoğunlukla sıfır oluyor ama, arada bir şöyle bir çıktı da verebiliyor: `i:20 j:20 x:1696521216 y:5 `. Onun için ilk değer girişi çok önemli.
+Derste beraber yazdığımız yeni `Temel` adlı türün (`class`) [kodu burada]( https://www.onlinegdb.com/IO4hMr9R-). Epey çıktısı var, hatta en başta derleyici bir uyarı veriyor. Biraz düzeltmeler yapılmış hali de [burada]( https://onlinegdb.com/8h299NKAP). Uyarının çözümünü veriyor ve `cout` yerine `dout` nesnesi kullanarak da çıktıyı temizliyor. Bir de `void ana()` işlevinin en başında, Gürkan kardeşimizin rica ettiği *eşlem* (`std::map`) için ufak bir örnek de var. Cok yaygın kullanılan yazıdan sayıya eşleme: `std::string` -> `int` eşlemesi. Bu arada, eşlemin ilk değerini verirken, `x` adlı sayı değişkeninin ilk değerini belirtmedik. Çoğunlukla sıfır oluyor ama, arada bir şöyle bir çıktı da verebiliyor: `i:20 j:20 x:1696521216 y:5`. Onun için ilk değer girişi çok önemli.
 
 Yeni türümüzün nesnelerini yapan ve yıkan yöntemler üzerinde durduk. Nasıl tanımlanırlar ve nasıl çalışırlar, deneyerek gördük. Birden fazla yapıcı olabileceğini ama sadece tek bir yıkıcı olduğunu öğrendik. Sonra kopyalayarak yapan bir yöntem oluşturduk. Bu kopyalayarak yapan yapıcının adını *kopyalayıcı* koyduk. Bunların hiçbirinin çıktısı yok ve olamaz. Tek sorumlulukları, yeni nesne için bellekte yer açmak ve ilk değerini yazmak, ve ömrünün sonuna gelince de onu bellekten silmek. Onun için ilk yazımları (İngilizcesi *declaration* yani *tanıtım* da diyebiliriz) şöyle oluyor:
 ```c++ 
 class Temel {
-// varsayılan erişim gizli
+    // varsayılan durumda üyeler gizli
     int gizli_veri;
     
 protected: 
@@ -13,6 +13,7 @@ protected:
 
 public: 
     int görünür_veri;
+
     Temel(); // girdi olabilir
     ~Temel(); // girdi yok! 
     Temel(const Temel&); // aynı türden bir girdi zorunlu, hem de &, yani takma ad (reference) gerekli 
