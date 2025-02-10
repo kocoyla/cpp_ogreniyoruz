@@ -23,3 +23,16 @@ private:
 ```
 
 Bunu kurcalayarak öğrenmek için daha sade bir [yazılım projesi de burada](https://onlinegdb.com/Mzd1nDHWM). Üç dosya kullanıyor: `main.cpp, Temel.h, Temel.cpp`.  Açıklamalara bakıp birer birer deneyleri çalıştırın.  
+
+Derste ayrıca bir nesnenin değerini değiştirmek için kullanılan eşittir işlemcisini (`operator=`) tanımladık. Bir yapıcı değil, ama üye bir yöntem. Çıktısı olmak zorunda değil, yani `void operator=(...)` diye de tanımlayabiliriz, ama o zaman, `t1 = t2 = t3` gibi peşpeşe eşitleme yapamayız. Onun için genelde kendisinin takma adını, yani kendisine referansı, çıktı olarak verir: ```c++
+Temel & operator=(const Temel& girdi) {
+   // ...
+   return *this;
+}```
+Bununla da `this` anahtar sözcüğünü görmüş olduk: bu değişken, nesnenin kendisinin bellekteki adresini tutan bir *pointer*, yani nesnenin göstergesi.
+
+Son olarak da `friend` anahtar sözcüğünü kullanarak `cout` için gerekli olan çıktı akımı işlemcisini tanımladık: 
+```c++
+friend ostream& operator<<(ostream &, const Temel&);``` 
+
+Biraz ağır bir ders oldu, ama **c++** dili hızlı becerisini bu temellere borçlu. Devam etmek dileğiyle.  
