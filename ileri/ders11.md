@@ -49,4 +49,6 @@ int main() {
 }
 ``` 
 
-Biraz ağır bir ders oldu, ama **c++** dili hızını ve becerilerini bu sağlam ve titiz temellere borçlu. Devam etmek dileğiyle.  
+Bu `friend` yani arkadaş anlamına gelen anahtar sözcüğüyle türün üyesi olmayan işlevler ve işlemciler de türün gizli verilerini okumak ve gerekirse değiştirebilmek için izin almış oluyorlar. 
+
+Biraz ağır bir ders oldu, ama **C++** dili hızını ve becerilerini bu sağlam ve titiz temellere borçlu. Devam etmek dileğiyle... 
