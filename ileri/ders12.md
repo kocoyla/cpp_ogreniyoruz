@@ -19,11 +19,11 @@ map<int, int> eşlem {
 Elbette sadece eşdeğer değil, fazladan bazı bilgiler de içeriyor. Sanırım *Tür2* değerlerinin ne anlama geldiğini tahmin etmişsinizdir. Hatta, daha da açık olsun istersek daha da ilginç bir örnek yazabiliriz:
 ```c++ 
 map<int, set<int>> eşlem2 {
-        { 1, {1} }, 
-        { 4, {1, 2, 4} }, 
-        { 9, {1, 3, 9} } 
-        // ...
-    };
+    { 1, {1} }, 
+    { 4, {1, 2, 4} }, 
+    { 9, {1, 3, 9} } 
+    // ...
+};
 ```
 Bu gelişmiş kalıplarla biraz daha alıştırma yapmak ister misiniz? Faydalı olur. Örneğin, [buradaki kodu](https://onlinegdb.com/_CroqvtI4r) çatallayıp birden yüze kadar bütün sayıların çarpanlarını bu *eşlem2* içine ekleyebiliriz. Tabii elle değil, daha önce yazdığımız çarpan bulma kodunu kullanarak 😉. Onu da [burada bulabilirsiniz](https://onlinegdb.com/jw9PvWZ-G).
 
