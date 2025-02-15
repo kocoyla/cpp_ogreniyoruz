@@ -1,6 +1,6 @@
 [Görsel kayıt burada]( https://drive.google.com/file/d/1vbOHdEOnAxqS53GEToBmgoPkyUs_0Lyo). 1 saat 24 dakika.  
 
-Hızlıca [on birinci ders](ders11.md) notlarına baktık. *Temel* adlı sınıfın, `public, protected, private, operator, friend` anahtar sözcüklerinin, yapıcı (`Tür(...)`) ve yıkıcı (~Tür()`) yöntemlerin üzerinden geçtik. Bilhassa `operator=, operator<< ve operator>>` ile *=, << ve >>* işlemcilerine yeni beceriler kazandırmanın faydasını gördük.
+Hızlıca [on birinci ders](ders11.md) notlarına baktık. *Temel* adlı sınıfın, `public, protected, private, operator, friend` anahtar sözcüklerinin, yapıcı (`Tür(...)`) yöntemlerin ve yıkıcı (`~Tür()`) yöntemin üzerinden geçtik. Bilhassa `operator=, operator<< ve operator>>` ile *=, << ve >>* işlemcilerine yeni beceriler kazandırmanın faydalarını gördük.
 
 *Eşlemlere* (`std::map`) derin bakış 
 --
