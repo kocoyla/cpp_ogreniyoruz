@@ -1,6 +1,6 @@
 [Görsel kayıt burada]( https://drive.google.com/file/d/1vbOHdEOnAxqS53GEToBmgoPkyUs_0Lyo). 1 saat 24 dakika.  
 
-Hızlıca [on birinci ders](ders11.md) notlarına baktım. `public, protected, private, operator, friend` anahtar sözcüklerinin, yapıcı ve yıkıcı yöntemlerin üzerinden geçtik. Bilhassa `operator=, operator<< ve operator>>' ile işlemcilere yeni beceriler kazandırmanın faydasını gördük.
+Hızlıca [on birinci ders](ders11.md) notlarına baktık. `public, protected, private, operator, friend` anahtar sözcüklerinin, yapıcı ve yıkıcı yöntemlerin üzerinden geçtik. Bilhassa `operator=, operator<< ve operator>>` ile *=, << ve >>* işlemcilerine yeni beceriler kazandırmanın faydasını gördük.
 
 *Eşlemlere* (`std::map`) derin bakış 
 ==
