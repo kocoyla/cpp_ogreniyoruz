@@ -50,15 +50,15 @@ cout << ekle("ab", "bc"); // bu hata veriyor. Neden?
 cout << ekle(string("ab"), string("bc\n")); // Bu çalışır.
 ```
 Hatayı daha iyi anlamak için şu kısacık kodu çalıştırıverin: [tek kalıplı kod](https://onlinegdb.com/SMAOywzm7X).   
-Hata mesajına bakalım. Derleyici önce kalıbı somutlaştırmaya çalıştığını yazar arkadan da şu hatayı verir:
+Derleyici önce kalıbı somutlaştırmaya çalıştığını yazar arkadan da şu hatayı verir:
 ```c++
 error: invalid operands of types ‘const char*’ and ‘const char*’ to binary ‘operator+’
     9 |         return a + b;
 ```
 
-[Derste yazığımız kod burada](https://www.onlinegdb.com/IibF-74Br).  
+[Derste yazdığımız kod burada](https://www.onlinegdb.com/IibF-74Br).  
 
-Dersten sonra bir kaç ekleme yaptım. En önemlisi, ikinci bir işlev kalıbı ekledim. Onu da şurda bulabilirsiniz: [iki kalıplı](https://onlinegdb.com/inzq7Z7O3)   
+Dersten sonra bir kaç ekleme yaptım. En önemlisi, ikinci bir işlev kalıbı ekledim. Onu da şurda bulabilirsiniz: [iki kalıplı kod](https://onlinegdb.com/inzq7Z7O3).   
 
 Arkası yarın!
 
