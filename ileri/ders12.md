@@ -92,6 +92,6 @@ public:
 };
 ```
 
-[Kodu burada](https://www.onlinegdb.com/nRozqW61O).
+[Kodu burada](https://www.onlinegdb.com/nRozqW61O). Bu `Sayı` kalıbını da gelecek dersimizde yeni türümüz `Rasyonel`'i kullanarak somutlaştırmaya çalışalım beraber, ne dersiniz?
 
 Sevgiler, başarılar.  
