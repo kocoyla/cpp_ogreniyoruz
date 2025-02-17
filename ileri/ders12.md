@@ -80,8 +80,8 @@ YeniTürAdı<int> sayı;
 YeniTürAdı<double> kesirli;
 ```
 
-Daha önceki derslerimizde bol bol kullandığımız *standart* kütüpten `vector<X>` bu şekilde tanımlanmış bir *tür kalıbı.*  Yukaridaki `map<X, Y>` ve 
-`pair<X, Y>` de aynen. Tek farkları bir değil ikişer tür değişkeni kullanmaları. Üç ya da daha çok da olabilir gerekirse ve şöyle tanımlanır: 
+Daha önceki derslerimizde bol bol kullandığımız *standart* kütüpten `vector<X>` bu şekilde tanımlanmış bir *tür kalıbı.*  Yukarıdaki `map<X, Y>` ve 
+`pair<X, Y>` de aynen. Tek farkları bir değil ikişer *tür değişkeni* kullanmaları. Üç ya da daha çok da olabilir gerekirse ve şöyle tanımlanır: 
 ```c++
 template<typename T1, typename T2, typename T3>
 class Üçlü { 
