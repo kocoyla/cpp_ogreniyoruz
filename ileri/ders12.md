@@ -95,6 +95,12 @@ public:
 };
 ```
 
-[Kodu burada](https://www.onlinegdb.com/nRozqW61O). Bu `Sayı` kalıbını da gelecek dersimizde yeni türümüz `Rasyonel`'i kullanarak somutlaştırmaya çalışalım beraber, ne dersiniz?
+[Derste yazdığımız kod burada](https://www.onlinegdb.com/nRozqW61O). Bu `Sayı` kalıbını yeni bir tür kullanarak da somutlaştırabiliriz. Gelecek dersimizde isterseniz rasyonel sayıları temsil eden yeni bir tür tanımlayalım, adını `Rasyonel` koyalım ve şuna benzer kodlar yazalım: ```c++
+Rasyonel r(1,3);
+Sayı<Rasyonel> sayı{r};
+r.kare();
+ekle(r, r);
+```
+Ne dersiniz?
 
 Sevgiler, başarılar.  
