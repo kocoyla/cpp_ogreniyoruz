@@ -50,11 +50,13 @@ cout << ekle("ab", "bc\n"); // bu hata veriyor. Neden?
 cout << ekle(string("ab"), string("bc\n")); // Bu çalışır.
 ```
 Hatayı daha iyi anlamak için şu kısacık kodu çalıştırıverin: [tek kalıplı kod](https://onlinegdb.com/SMAOywzm7X).   
-Derleyici önce kalıbı somutlaştırmaya çalıştığını yazar arkadan da şu hatayı verir:
+Derleyici önce kalıbı somutlaştırmaya çalıştığını yazar (yani tür değişkeninin değerini vererek kalıptan bir somut işlev oluşturmak, İngilizcesi *instantiation*), arkasından da şu hatayı verir:
 ```c++
 error: invalid operands of types ‘const char*’ and ‘const char*’ to binary ‘operator+’
     9 |         return a + b;
 ```
+
+Yani, `a` ve `b` değişkenleri için `+` yani toplama işlemi tanımlı değil diyor.  
 
 [Derste yazdığımız kod burada](https://www.onlinegdb.com/IibF-74Br).  
 
