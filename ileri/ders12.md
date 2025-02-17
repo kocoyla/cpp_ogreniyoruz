@@ -71,14 +71,17 @@ Tür kalıpları da aynı işlev kalıpları gibi, en az bir *tür değişkeni* 
 ```c++
 template<typename X>
 class YeniTürAdı { 
-  // burada tür adı gereken bazı yerlerde X değişkenini kullanabiliyoruz. 
+  // burada tür gereken yerlerde
+  // X diyebiliyoruz istersek. Örneğin:
+  X nesne;  // nesnenin türü X
   // ...
 };
 
-// tür kalıpları da şu şekilde somutlaştırılıyor, yani somut bir tür oluyor:
-YeniTürAdı<int> sayı;
-YeniTürAdı<double> kesirli;
+// tür kalıplar şu şekilde somutlaştırılıyor, yani somut bir tür oluyor:
+YeniTürAdı<int> sayı1;
+YeniTürAdı<double> kesirliSayı2;
 ```
+Derleyici `sayı1` nesnesinin türünü oluşturmak için, `X` gördüğü her yere `int` koyuyor. `kesirliSayı2` için ise `double` koyuyor.  
 
 Daha önceki derslerimizde bol bol kullandığımız *standart* kütüpten `vector<X>` bu şekilde tanımlanmış bir *tür kalıbı.*  Yukarıdaki `map<X, Y>` ve 
 `pair<X, Y>` de aynen. Tek farkları bir değil ikişer *tür değişkeni* kullanmaları. Üç ya da daha çok da olabilir gerekirse ve şöyle tanımlanır: 
