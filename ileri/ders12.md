@@ -62,7 +62,7 @@ Yani, `a` ve `b` değişkenlerinin türü olan `const char *` için `operator+` 
 
 Dersten sonra bir kaç ekleme yaptım. En önemlisi, ikinci bir işlev kalıbı ekledim. Onu da şurda bulabilirsiniz: [iki kalıplı kod](https://onlinegdb.com/inzq7Z7O3).   
 
-Bu işlev kalıbı sadece temel ve kütüphane türleriyle değil, kendi tanımladığımız türlerle de çalışır. Gelecek derste rasyonel bir sayı türü tanımlayarak daha iyi anlarız. Şimdiden bakmak isteyenler için [örnek kod burada](https://onlinegdb.com/vcbFHF6W3).    
+İşlev kalıpları sadece temel ve kütüphane türleriyle değil, kendi tanımladığımız türlerle de çalışır. Gelecek derste rasyonel bir sayı türü tanımlayarak daha iyi anlarız. Şimdiden bakmak isteyenler için [örnek kod burada](https://onlinegdb.com/vcbFHF6W3).    
 
 Tür kalıplarına (*class templates*) giriş 
 -- 
