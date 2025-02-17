@@ -1,6 +1,6 @@
 [Görsel kayıt burada]( https://drive.google.com/file/d/1vbOHdEOnAxqS53GEToBmgoPkyUs_0Lyo). 1 saat 24 dakika.  
 
-Hızlıca [on birinci ders](ders11.md) notlarına baktık. *Temel* adlı sınıfın, `public, protected, private, operator, friend` anahtar sözcüklerinin, yapıcı (`Tür(...)`) yöntemlerin ve yıkıcı (`~Tür()`) yöntemin üzerinden geçtik. Bilhassa `operator=, operator<< ve operator>>` ile *=, << ve >>* işlemcilerine yeni beceriler kazandırmanın faydalarını gördük.
+Hızlıca [on birinci ders](ders11.md) notlarına baktık. *Temel* adlı sınıfın, `public, protected, private, operator, friend` anahtar sözcüklerinin, yapıcı (`Tür(...)`) yöntemlerin ve yıkıcı (`~Tür()`) yöntemin üzerinden geçtik. Bilhassa `operator=`, `operator<<` ve `operator>>` ile `=`, `<<` ve `>>` işlemcilerine yeni beceriler kazandırmanın faydalarını gördük.
 
 *Eşlemlere* (`std::map`) derin bakış 
 --
@@ -65,7 +65,33 @@ Dersten sonra bir kaç ekleme yaptım. En önemlisi, ikinci bir işlev kalıbı 
 Bu işlev kalıbı sadece temel ve kütüphane türleriyle değil, kendi tanımladığımız türlerle de çalışır. Gelecek derste rasyonel bir sayı türü tanımlayarak daha iyi anlarız. Şimdiden bakmak isteyenler için [örnek kod burada](https://onlinegdb.com/vcbFHF6W3).    
 
 Tür kalıplarına (*class templates*) giriş 
---
+-- 
+
+Tür kalıpları da aynı işlev kalıpları gibi, en az bir *tür değişkeni* tanımlayarak başlıyor:  
+```c++
+template<typename X>
+class YeniTürAdı { 
+  // burada tür adı gereken bazı yerlerde X değişkenini kullanabiliyoruz. 
+  // ...
+};
+
+// tür kalıpları da şu şekilde somutlaştırılıyor, yani somut bir tür oluyor:
+YeniTürAdı<int> sayı;
+YeniTürAdı<double> kesirli;
+```
+
+Daha önceki derslerimizde bol bol kullandığımız *standart* kütüpten `vector<X>` bu şekilde tanımlanmış bir *tür kalıbı.*  Yukaridaki `map<X, Y>` ve 
+`pair<X, Y>` de aynen. Tek farkları bir değil ikişer tür değişkeni kullanmaları. Üç ya da daha çok da olabilir gerekirse ve şöyle tanımlanır: 
+```c++
+template<typename T1, typename T2, typename T3>
+class Üçlü { 
+  T1 t1; 
+public: 
+   //örneğin: 
+  T3 çevir(T2 t2);
+};
+```
+
 [Kodu burada](https://www.onlinegdb.com/nRozqW61O).
 
 Sevgiler, başarılar.  
