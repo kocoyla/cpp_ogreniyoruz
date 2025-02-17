@@ -106,6 +106,6 @@ cout << sayı << endl
      << kare << endl
      << ikiKare << endl;
 ```
-Ne dersiniz, çalışır mı?
+Güzel oldu, değil mi?
 
 Sevgiler, başarılar.  
