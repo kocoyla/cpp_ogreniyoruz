@@ -98,14 +98,14 @@ public:
 [Derste yazdığımız kod burada](https://www.onlinegdb.com/nRozqW61O). Bu `Sayı` kalıbını yeni bir tür kullanarak da somutlaştırabiliriz. Gelecek dersimizde isterseniz rasyonel sayıları temsil eden yeni bir tür tanımlayalım, adını `Rasyonel` koyalım ve şuna benzer kodlar yazalım:
 ```c++
 Rasyonel r(1,3); // bir bölü üç 
-ekle(r,r);
-Sayı<Rasyonel> sayı{r}, 
+Rasyonel r2 = ekle(r,r);
+Sayı<Rasyonel> sayı{r2}, 
    kare{sayı.kare()},
    ikiKare{ekle(kare, kare)};
 cout << sayı << endl
      << kare << endl
      << ikiKare << endl;
 ```
-Güzel oldu, değil mi?
+Güzel olmaz mı?
 
 Sevgiler, başarılar.  
