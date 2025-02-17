@@ -107,5 +107,3 @@ cout << sayı << endl
      << ikiKare << endl;
 ```
 Güzel olmaz mı?
-
-Sevgiler, başarılar.  
