@@ -99,7 +99,7 @@ public:
 ```c++
 Rasyonel r(1,3); // bir bölü üç 
 Rasyonel r2 = ekle(r,r);
-Sayı<Rasyonel> sayı{r2}, 
+Sayı<Rasyonel> sayı(r2), 
    kare{sayı.kare()},
    ikiKare{ekle(kare, kare)};
 cout << sayı << endl
