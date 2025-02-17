@@ -56,9 +56,9 @@ error: invalid operands of types ‘const char*’ and ‘const char*’ to bina
     9 |         return a + b;
 ```
 
-Yani, `a` ve `b` değişkenlerinin türü olan `const char *` için `operator+` yani toplama işlemi tanımlı değil diyor. Çift tırnak içindeki yazıların belleğe bir dizi karakter olarak yazıldığını görmüştük daha önce, değil mi? Buradaki `a` girdisi, bir karakter dizisinin ilk elemanının adresini tutuyor. `b` de öyle. Dizinin sonunu belirlemek için de özel bir karakter (`'\0'`) yazılıyor. `nullptr` gibi. Bunun adı da `null char.`
+Yani, `a` ve `b` değişkenlerinin türü olan `const char *` için `operator+` yani toplama işlemi tanımlı değil diyor. Çift tırnak içindeki yazıların belleğe bir dizi karakter olarak yazıldığını görmüştük daha önce, değil mi? Buradaki `a` girdisi, bir karakter dizisinin ilk elemanının adresini tutuyor. `b` de öyle. Dizinin sonunu belirlemek için de özel bir karakter (`'\0'`) yazılıyor. `nullptr` gibi. Bunun adı da `null char.`  Daha detaylı bilgi ve örnek için yine [*stackoverflow* sitesinden faydalanalim](https://stackoverflow.com/questions/29366782/understanding-char-array-and-string).   
 
-[Derste yazdığımız kod burada](https://www.onlinegdb.com/IibF-74Br).  
+[Derste yazdığımız kod da burada](https://www.onlinegdb.com/IibF-74Br).  
 
 Dersten sonra bir kaç ekleme yaptım. En önemlisi, ikinci bir işlev kalıbı ekledim. Onu da şurda bulabilirsiniz: [iki kalıplı kod](https://onlinegdb.com/inzq7Z7O3).   
 
