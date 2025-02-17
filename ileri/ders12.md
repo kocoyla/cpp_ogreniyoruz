@@ -34,19 +34,19 @@ Bu gelişmiş kalıplarla biraz daha alıştırma yapmak ister misiniz? Faydalı
 --
 İlk defa kalıp anlamına gelen `template` anahtar sözcüğünü kullandık ve sade bir işlev yerine, bir *işlev kalıbı* tanımladık:
 ```c++
-template<typename Tür>
-Tür ekle(Tür a, Tür b) {
+template<typename TürX>
+TürX ekle(TürX a, TürX b) {
   return a + b;
 }
 ```
-Programımız bu sayede hem tam sayılar, hem de kesirli sayılar için doğru çalıştı:
+Derste `Tür` adını kullandık. Ama başka herhangi bir sözcük de olabilirdi. Yukarıda `TürX` adını kullandım. Şu ana kadar her değişkenin bir adı bir de türü var demiştik. Burada ilk kez bir **tür değişkeni** görüyoruz. Bu tür değişkeninin adı `TürX`. Ama değeri ne? `int` olabilir. `double` olabilir. Tür değişkenlerinin değerleri işlev kalıbı kullanıldığında ortaya çıkıyor. Programımız bu sayede hem tam sayılar, hem de kesirli sayılar için doğru çalışıyor:
 ```c++
 cout << ekle(3, 3)              // 6 yazdı
      << endl << ekle(3.5, 3.5); // 7 yazdı
 ```
 İşin güzel tarafı, bu kalıp sadece sayılar için değil, başka türler için de kullanılabilir. Örneğin, iki yazıyı birbirine ekleyebiliriz:
 ```c++
-cout << ekle("ab", "bc"); // bu hata veriyor. Neden?
+cout << ekle("ab", "bc\n"); // bu hata veriyor. Neden?
 cout << ekle(string("ab"), string("bc\n")); // Bu çalışır.
 ```
 Hatayı daha iyi anlamak için şu kısacık kodu çalıştırıverin: [tek kalıplı kod](https://onlinegdb.com/SMAOywzm7X).   
@@ -60,7 +60,7 @@ error: invalid operands of types ‘const char*’ and ‘const char*’ to bina
 
 Dersten sonra bir kaç ekleme yaptım. En önemlisi, ikinci bir işlev kalıbı ekledim. Onu da şurda bulabilirsiniz: [iki kalıplı kod](https://onlinegdb.com/inzq7Z7O3).   
 
-Arkası yarın!
+Bu işlev kalıbı sadece temel ve kütüphane türleriyle değil, kendi tanımladığımız türlerle de çalışır. Gelecek derste rasyonel bir sayı türü tanımlayarak daha iyi anlarız. Şimdiden bakmak isteyenler için [örnek kod burada](https://onlinegdb.com/vcbFHF6W3).    
 
 Tür kalıplarına (*class templates*) giriş 
 --
