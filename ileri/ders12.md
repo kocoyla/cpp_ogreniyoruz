@@ -27,9 +27,6 @@ map<int, set<int>> eşlem2 {
 ```
 Bu gelişmiş kalıplarla biraz daha alıştırma yapmak ister misiniz? Faydalı olur. Örneğin, [buradaki kodu](https://onlinegdb.com/_CroqvtI4r) çatallayıp birden yüze kadar bütün sayıların çarpanlarını bu *eşlem2* içine ekleyebiliriz. Tabii elle değil, daha önce yazdığımız çarpan bulma kodunu kullanarak 😉. Onu da [burada bulabilirsiniz](https://onlinegdb.com/jw9PvWZ-G).
 
-
-Şimdilik bu kadar. Vakit buldukça aşağıdaki iki konu için de notlar yazacağım: 
-
 İşlev kalıplarına (*function templates*) giriş 
 --
 İlk defa kalıp anlamına gelen `template` anahtar sözcüğünü kullandık ve sade bir işlev yerine, bir *işlev kalıbı* tanımladık:
