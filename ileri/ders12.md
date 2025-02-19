@@ -36,7 +36,7 @@ TürX ekle(TürX a, TürX b) {
   return a + b;
 }
 ```
-Derste `Tür` adını kullandık. Ama başka herhangi bir sözcük de olabilirdi. Yukarıda `TürX` adını kullandım. Çok gördük ama yine dile getirelim: her **değişkenin** bir **değeri**, bir **adı**, bir de **türü*" var. Örneğin: `int x{3};`. Bu dersimizde ilk kez bir **tür değişkeni** görüyoruz. Bu tür değişkeninin adı `TürX`. Ama değeri ne? `int` olabilir. `double` olabilir. Başka bir tür olabilir. Tür değişkenlerinin değerleri işlev kalıbı kullanıldığında ortaya çıkıyor. Programımız bu sayede hem tam sayılar, hem de kesirli sayılar için doğru çalışıyor:
+Derste `Tür` adını kullandık. Ama başka herhangi bir sözcük de olabilirdi. Yukarıda `TürX` adını kullandım. Çok gördük ama yine de dile getirelim: her **değişkenin** bir **değeri**, bir **adı**, bir de **türü** var. Örneğin: `int x{3};`. Bu dersimizde ilk kez bir **tür değişkeni** görüyoruz. Bu tür değişkeninin adı `TürX`. Ama değeri ne? `int` olabilir. `double` olabilir. Başka bir tür olabilir. Tür değişkenlerinin değerleri işlev kalıbı kullanıldığında ortaya çıkıyor. Programımız bu sayede hem tam sayılar, hem de kesirli sayılar için doğru çalışıyor:
 ```c++
 cout << ekle(3, 3)              // 6 yazdı
      << endl << ekle(3.5, 3.5); // 7 yazdı
