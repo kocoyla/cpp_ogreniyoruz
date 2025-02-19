@@ -67,21 +67,21 @@ Tür kalıplarına (*class templates*) giriş
 Tür kalıpları da aynı işlev kalıpları gibi, en az bir *tür değişkeni* tanımlayarak başlıyor:  
 ```c++
 template<typename X>
-class YeniTürAdı { 
+class TürKalıbı { 
   // burada tür gereken yerlerde
   // X diyebiliyoruz istersek. Örneğin:
-  X nesne;  // nesnenin türü X
+  X nesne;  // nesnenin türü X olsun
   // ...
 };
 
-// tür kalıplar şu şekilde somutlaştırılıyor, yani somut bir tür oluyor:
-YeniTürAdı<int> sayı1;
-YeniTürAdı<double> kesirliSayı2;
+// tür kalıpları şu şekilde somutlaştırılıyor,
+// yani somut bir tür oluyor:
+TürKalıbı<int> sayı1;
+TürKalıbı<double> kesirliSayı2;
 ```
-Derleyici `sayı1` nesnesinin türünü oluşturmak için, `X` gördüğü her yere `int` koyuyor. `kesirliSayı2` için ise `double` koyuyor.  
+Derleyici `sayı1` nesnesinin türünü oluşturmak için, `TürKalıbı` tanımı içinde `X` gördüğü her yere `int` koyuyor. `kesirliSayı2` için ise `double` koyuyor.  
 
-Daha önceki derslerimizde bol bol kullandığımız *standart* kütüpten `vector<X>` bu şekilde tanımlanmış bir *tür kalıbı.*  Yukarıdaki `map<X, Y>` ve 
-`pair<X, Y>` de aynen. Tek farkları bir değil ikişer *tür değişkeni* kullanmaları. Üç ya da daha çok da olabilir gerekirse ve şöyle tanımlanır: 
+Daha önceki derslerimizde bol bol kullandığımız *standart* kütüpten `vector<X>` bu şekilde tanımlanmış bir *tür kalıbı.*  Yukarıdaki `map<X, Y>` ve `pair<X, Y>` de aynen. Tek farkları bir değil ikişer *tür değişkeni* kullanmaları. Üç ya da daha çok da olabilir gerekirse ve şöyle tanımlanır: 
 ```c++
 template<typename T1, typename T2, typename T3>
 class Üçlü { 
